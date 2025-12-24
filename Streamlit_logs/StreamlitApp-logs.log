@@ -1,0 +1,1923 @@
+[2025-12-24 07:19:44,549 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 07:20:47,100 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 07:23:25,021 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 07:24:35,249 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 07:25:44,747 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 07:26:10,926 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 07:42:37,915 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 07:43:37,697 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 14:10:42,942 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 14:21:57,053 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 14:36:07,494 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 14:36:09,539 StreamlitApp] ERROR: main : History Display Error: There are multiple `plotly_chart` elements with the same auto-generated ID. When this element is created, it is assigned an internal ID based on the element type and provided parameters. Multiple elements with the same type and parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `plotly_chart` element.
+[2025-12-24 14:49:12,421 StreamlitApp] ERROR: main : History Display Error: There are multiple `plotly_chart` elements with the same auto-generated ID. When this element is created, it is assigned an internal ID based on the element type and provided parameters. Multiple elements with the same type and parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `plotly_chart` element.
+[2025-12-24 14:49:57,485 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 14:50:17,953 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 14:50:31,733 StreamlitApp] INFO: main : Calculated specs for Boost converter with Vin=12.0V, Vo=50.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 15:31:49,753 StreamlitApp] ERROR: main : History Display Error: 
+Image export using the "kaleido" engine requires the Kaleido package,
+which can be installed using pip:
+
+    $ pip install --upgrade kaleido
+
+[2025-12-24 15:33:10,340 StreamlitApp] INFO: main : Calculated specs for Boost converter with Vin=12.0V, Vo=32.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 15:33:10,345 StreamlitApp] ERROR: main : Calculation Error: 
+Image export using the "kaleido" engine requires the Kaleido package,
+which can be installed using pip:
+
+    $ pip install --upgrade kaleido
+
+[2025-12-24 15:35:41,918 StreamlitApp] ERROR: main : History Display Error: 
+Image export using the "kaleido" engine requires the Kaleido package,
+which can be installed using pip:
+
+    $ pip install --upgrade kaleido
+
+[2025-12-24 15:35:50,491 StreamlitApp] INFO: main : Calculated specs for Boost converter with Vin=12.0V, Vo=32.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 15:35:50,494 StreamlitApp] ERROR: main : Calculation Error: 
+Image export using the "kaleido" engine requires the Kaleido package,
+which can be installed using pip:
+
+    $ pip install --upgrade kaleido
+
+[2025-12-24 16:31:58,442 StreamlitApp] ERROR: main : History Display Error: 
+Image export using the "kaleido" engine requires the Kaleido package,
+which can be installed using pip:
+
+    $ pip install --upgrade kaleido
+
+[2025-12-24 16:32:38,880 StreamlitApp] ERROR: main : History Display Error: 
+Image export using the "kaleido" engine requires the Kaleido package,
+which can be installed using pip:
+
+    $ pip install --upgrade kaleido
+
+[2025-12-24 16:33:18,493 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 16:33:18,497 StreamlitApp] ERROR: main : Calculation Error: 
+Image export using the "kaleido" engine requires the Kaleido package,
+which can be installed using pip:
+
+    $ pip install --upgrade kaleido
+
+[2025-12-24 16:34:45,366 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 16:34:45,420 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:34:45,488 StreamlitApp] ERROR: main : Calculation Error: 
+
+Kaleido requires Google Chrome to be installed.
+
+Either download and install Chrome yourself following Google's instructions for your operating system,
+or install it from your terminal by running:
+
+    $ plotly_get_chrome
+
+
+[2025-12-24 16:37:28,003 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 16:37:28,019 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:37:28,020 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:37:28,029 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpkec4q4nj.
+[2025-12-24 16:37:28,036 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:37:28,045 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp3xa6a97m.
+[2025-12-24 16:37:28,199 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp3xa6a97m
+[2025-12-24 16:37:28,920 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:37:28,954 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:37:28,955 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:37:28,956 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:37:28,956 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:37:28,957 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:37:28,958 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:37:28,961 StreamlitApp] ERROR: main : Calculation Error: It seems like you are running a slim version of your operating system and are missing some common dependencies. The following command should install the required dependencies on most systems:
+
+$ sudo apt update && sudo apt-get install libnss3 libatk-bridge2.0-0 libcups2 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libxkbcommon0 libpango-1.0-0 libcairo2 libasound2
+
+If you have already run the above command and are still seeing this error, or the above command fails, consult the Kaleido documentation for operating system to install chromium dependencies.
+
+For support, run the command `choreo_diagnose` and create an issue with its output.
+[2025-12-24 16:37:29,224 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:37:29,226 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:38:52,894 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 16:38:52,899 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:38:52,900 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:38:52,900 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpw61a4f97.
+[2025-12-24 16:38:52,902 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:38:52,904 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp1_e29ike.
+[2025-12-24 16:38:52,946 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp1_e29ike
+[2025-12-24 16:38:54,287 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpw61a4f97/index.html
+[2025-12-24 16:38:54,289 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:38:56,779 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:38:56,783 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:38:56,784 kaleido.kaleido] INFO: kaleido : Got E359
+[2025-12-24 16:38:56,786 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:38:56,787 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:38:57,024 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:38:57,026 kaleido.kaleido] INFO: kaleido : Reloading tab E359 before return.
+[2025-12-24 16:38:57,244 kaleido.kaleido] INFO: kaleido : Putting tab E359 back (queue size: 0).
+[2025-12-24 16:38:57,244 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:38:57,246 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:38:57,248 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:38:57,256 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:38:57,261 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:38:57,269 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:38:57,269 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:38:57,269 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:38:57,663 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:38:57,665 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:38:57,666 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:38:57,668 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:38:57,669 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:38:57,673 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:38:57,712 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:38:57,717 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:38:57,718 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpcumeispl.
+[2025-12-24 16:38:57,724 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:38:57,730 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpde1p3v1c.
+[2025-12-24 16:38:57,839 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpde1p3v1c
+[2025-12-24 16:38:58,827 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpcumeispl/index.html
+[2025-12-24 16:38:58,828 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:39:01,657 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:39:01,667 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:39:01,671 kaleido.kaleido] INFO: kaleido : Got 749A
+[2025-12-24 16:39:01,674 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:39:01,679 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:39:01,949 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:39:01,950 kaleido.kaleido] INFO: kaleido : Reloading tab 749A before return.
+[2025-12-24 16:39:02,147 kaleido.kaleido] INFO: kaleido : Putting tab 749A back (queue size: 0).
+[2025-12-24 16:39:02,148 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:39:02,148 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:39:02,148 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:39:02,154 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:39:02,155 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:39:02,155 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:39:02,155 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:39:02,155 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:39:02,537 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:39:02,537 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:39:02,538 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:39:02,539 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:39:02,539 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:39:02,539 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:39:02,858 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:39:02,862 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:39:02,863 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:39:02,866 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:40:49,566 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:40:49,568 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:40:49,569 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpua4hf50q.
+[2025-12-24 16:40:49,569 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:40:49,579 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpxwz3vii6.
+[2025-12-24 16:40:49,698 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpxwz3vii6
+[2025-12-24 16:40:50,754 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpua4hf50q/index.html
+[2025-12-24 16:40:50,754 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:40:53,483 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:40:53,487 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:40:53,487 kaleido.kaleido] INFO: kaleido : Got 0FB2
+[2025-12-24 16:40:53,488 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:40:53,488 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:40:53,860 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:40:53,863 kaleido.kaleido] INFO: kaleido : Reloading tab 0FB2 before return.
+[2025-12-24 16:40:54,134 kaleido.kaleido] INFO: kaleido : Putting tab 0FB2 back (queue size: 0).
+[2025-12-24 16:40:54,134 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:40:54,135 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:40:54,135 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:40:54,142 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:40:54,143 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:40:54,144 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:40:54,144 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:40:54,144 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:40:54,485 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:40:54,485 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:40:54,489 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:40:54,489 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:40:54,491 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:40:54,492 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:40:57,459 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:40:57,477 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:40:59,184 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:40:59,185 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:40:59,191 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp9q7xm3su.
+[2025-12-24 16:40:59,192 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:40:59,194 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpv9sgav_m.
+[2025-12-24 16:40:59,215 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpv9sgav_m
+[2025-12-24 16:40:59,757 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 16:41:00,313 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp9q7xm3su/index.html
+[2025-12-24 16:41:00,315 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:41:03,398 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:41:03,400 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:41:03,400 kaleido.kaleido] INFO: kaleido : Got A0A4
+[2025-12-24 16:41:03,400 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:41:03,400 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:41:03,719 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:41:03,726 kaleido.kaleido] INFO: kaleido : Reloading tab A0A4 before return.
+[2025-12-24 16:41:04,039 kaleido.kaleido] INFO: kaleido : Putting tab A0A4 back (queue size: 0).
+[2025-12-24 16:41:04,039 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:41:04,039 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:41:04,039 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:04,046 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:04,048 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:04,049 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:04,051 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:04,052 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:04,835 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:04,836 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:04,838 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:04,839 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:04,839 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:04,840 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:08,277 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:08,300 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:13,953 StreamlitApp] INFO: main : Calculated specs for Boost converter with Vin=12.0V, Vo=50.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 16:41:22,068 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:41:22,068 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:41:22,070 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpkjrc7rsh.
+[2025-12-24 16:41:22,072 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:41:22,092 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp_72_0612.
+[2025-12-24 16:41:22,159 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp_72_0612
+[2025-12-24 16:41:23,245 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpkjrc7rsh/index.html
+[2025-12-24 16:41:23,251 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:41:26,427 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:41:26,429 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:41:26,429 kaleido.kaleido] INFO: kaleido : Got 5DB5
+[2025-12-24 16:41:26,430 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:41:26,431 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:41:26,630 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:41:26,632 kaleido.kaleido] INFO: kaleido : Reloading tab 5DB5 before return.
+[2025-12-24 16:41:26,869 kaleido.kaleido] INFO: kaleido : Putting tab 5DB5 back (queue size: 0).
+[2025-12-24 16:41:26,870 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:41:26,870 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:41:26,870 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:26,873 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:26,874 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:26,875 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:26,876 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:26,876 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:27,254 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:27,254 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:27,255 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:27,256 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:27,256 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:27,257 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:31,157 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:41:31,157 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:41:31,158 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp6xxe4idd.
+[2025-12-24 16:41:31,159 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:41:31,160 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpt7l0kuv2.
+[2025-12-24 16:41:31,177 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpt7l0kuv2
+[2025-12-24 16:41:31,917 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp6xxe4idd/index.html
+[2025-12-24 16:41:31,920 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:41:34,062 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:41:34,063 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:41:34,064 kaleido.kaleido] INFO: kaleido : Got 50E6
+[2025-12-24 16:41:34,064 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:41:34,065 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:41:34,263 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:41:34,265 kaleido.kaleido] INFO: kaleido : Reloading tab 50E6 before return.
+[2025-12-24 16:41:34,457 kaleido.kaleido] INFO: kaleido : Putting tab 50E6 back (queue size: 0).
+[2025-12-24 16:41:34,458 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:41:34,458 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:41:34,458 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:34,470 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:34,470 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:34,473 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:34,473 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:34,474 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:34,917 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:34,918 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:34,919 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:34,921 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:34,921 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:34,922 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:38,192 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:41:38,193 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:41:38,193 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpyv_kcudz.
+[2025-12-24 16:41:38,194 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:41:38,195 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpoov_fgl9.
+[2025-12-24 16:41:38,219 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpoov_fgl9
+[2025-12-24 16:41:38,951 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpyv_kcudz/index.html
+[2025-12-24 16:41:38,952 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:41:38,955 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:38,958 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:38,959 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:38,960 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:41,043 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:41:41,048 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:41:41,048 kaleido.kaleido] INFO: kaleido : Got D8E2
+[2025-12-24 16:41:41,049 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 16:41:41,049 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:41:41,253 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:41:41,256 kaleido.kaleido] INFO: kaleido : Reloading tab D8E2 before return.
+[2025-12-24 16:41:41,450 kaleido.kaleido] INFO: kaleido : Putting tab D8E2 back (queue size: 0).
+[2025-12-24 16:41:41,450 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:41:41,450 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:41:41,450 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:41,452 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:41,457 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:41,457 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:41,458 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:41,458 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:41,782 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:41,782 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:41,782 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:41,783 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:41,783 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:41,784 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:45,064 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:41:45,065 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:41:45,065 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmprsysyp2o.
+[2025-12-24 16:41:45,066 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:41:45,068 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpepvwekcf.
+[2025-12-24 16:41:45,086 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpepvwekcf
+[2025-12-24 16:41:45,771 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmprsysyp2o/index.html
+[2025-12-24 16:41:45,779 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:41:47,947 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:41:47,952 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:41:47,952 kaleido.kaleido] INFO: kaleido : Got F101
+[2025-12-24 16:41:47,955 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 16:41:47,956 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:41:48,173 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:41:48,175 kaleido.kaleido] INFO: kaleido : Reloading tab F101 before return.
+[2025-12-24 16:41:48,364 kaleido.kaleido] INFO: kaleido : Putting tab F101 back (queue size: 0).
+[2025-12-24 16:41:48,365 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:41:48,366 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:41:48,366 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:48,375 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:48,376 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:48,377 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:48,377 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:48,378 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:48,843 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:48,844 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:48,845 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:48,846 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:48,847 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:48,849 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:52,172 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:41:52,172 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:41:52,173 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpq7tx9oc2.
+[2025-12-24 16:41:52,174 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:41:52,176 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpmo9ovihh.
+[2025-12-24 16:41:52,196 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpmo9ovihh
+[2025-12-24 16:41:53,034 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpq7tx9oc2/index.html
+[2025-12-24 16:41:53,034 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:41:55,272 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:41:55,277 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:41:55,278 kaleido.kaleido] INFO: kaleido : Got 8E67
+[2025-12-24 16:41:55,279 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png
+[2025-12-24 16:41:55,281 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 16:41:55,685 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 16:41:55,692 kaleido.kaleido] INFO: kaleido : Reloading tab 8E67 before return.
+[2025-12-24 16:41:55,976 kaleido.kaleido] INFO: kaleido : Putting tab 8E67 back (queue size: 0).
+[2025-12-24 16:41:55,976 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:41:55,977 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:41:55,977 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:55,987 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:41:55,987 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:55,987 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:55,988 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:55,989 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:56,450 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:56,451 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:56,452 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:41:56,455 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:41:56,461 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:41:56,462 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:41:59,833 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:41:59,841 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:41:59,844 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp701xo8c0.
+[2025-12-24 16:41:59,864 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:41:59,879 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpt5oh08lo.
+[2025-12-24 16:41:59,950 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpt5oh08lo
+[2025-12-24 16:42:00,647 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:00,648 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:00,652 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:00,652 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:00,658 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:42:00,660 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:42:00,661 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpdy_w3yzq.
+[2025-12-24 16:42:00,661 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:42:00,667 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpm454151v.
+[2025-12-24 16:42:00,725 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpm454151v
+[2025-12-24 16:42:00,983 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp701xo8c0/index.html
+[2025-12-24 16:42:00,985 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:42:02,454 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpdy_w3yzq/index.html
+[2025-12-24 16:42:02,456 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:42:05,710 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:42:05,712 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:42:05,712 kaleido.kaleido] INFO: kaleido : Got B3A9
+[2025-12-24 16:42:05,712 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:42:05,712 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:42:06,139 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:42:06,145 kaleido.kaleido] INFO: kaleido : Reloading tab B3A9 before return.
+[2025-12-24 16:42:06,663 kaleido.kaleido] INFO: kaleido : Putting tab B3A9 back (queue size: 0).
+[2025-12-24 16:42:06,663 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:42:06,663 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:42:06,663 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:06,677 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:06,679 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:06,684 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:06,689 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:06,690 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:07,127 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:07,128 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:07,129 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:07,129 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:07,130 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:07,130 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:08,345 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:08,347 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:42:08,370 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:08,371 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:08,378 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:08,400 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:42:08,401 kaleido.kaleido] INFO: kaleido : Got 6C45
+[2025-12-24 16:42:08,402 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png
+[2025-12-24 16:42:08,409 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 16:42:08,920 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 16:42:08,931 kaleido.kaleido] INFO: kaleido : Reloading tab 6C45 before return.
+[2025-12-24 16:42:09,354 kaleido.kaleido] INFO: kaleido : Putting tab 6C45 back (queue size: 0).
+[2025-12-24 16:42:09,354 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:42:09,355 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:42:09,355 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:09,390 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:09,391 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:09,396 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:09,396 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:09,405 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:10,139 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:10,158 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:10,176 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:10,193 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:10,193 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:10,193 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:18,057 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:42:18,080 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:42:18,093 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpfz0t86lb.
+[2025-12-24 16:42:18,131 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:42:18,159 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpl5hgq_uf.
+[2025-12-24 16:42:18,231 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpl5hgq_uf
+[2025-12-24 16:42:19,159 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpfz0t86lb/index.html
+[2025-12-24 16:42:19,161 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:42:19,798 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:19,798 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:21,610 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:42:21,615 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:42:21,618 kaleido.kaleido] INFO: kaleido : Got D1CF
+[2025-12-24 16:42:21,620 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:42:21,623 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:42:22,103 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:42:22,108 kaleido.kaleido] INFO: kaleido : Reloading tab D1CF before return.
+[2025-12-24 16:42:22,497 kaleido.kaleido] INFO: kaleido : Putting tab D1CF back (queue size: 0).
+[2025-12-24 16:42:22,497 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:42:22,498 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:42:22,498 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:22,505 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:22,506 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:22,507 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:22,507 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:22,508 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:22,835 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:22,836 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:22,837 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:22,838 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:22,838 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:22,839 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:25,843 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:42:25,843 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:42:25,845 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp_kftph7r.
+[2025-12-24 16:42:25,846 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:42:25,847 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpstvvnyz0.
+[2025-12-24 16:42:25,866 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpstvvnyz0
+[2025-12-24 16:42:26,584 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp_kftph7r/index.html
+[2025-12-24 16:42:26,587 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:42:28,634 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:42:28,635 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:42:28,636 kaleido.kaleido] INFO: kaleido : Got C213
+[2025-12-24 16:42:28,641 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 16:42:28,643 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:42:28,875 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:42:28,877 kaleido.kaleido] INFO: kaleido : Reloading tab C213 before return.
+[2025-12-24 16:42:29,063 kaleido.kaleido] INFO: kaleido : Putting tab C213 back (queue size: 0).
+[2025-12-24 16:42:29,063 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:42:29,063 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:42:29,063 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:29,068 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:29,069 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:29,070 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:29,070 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:29,071 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:29,448 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:29,448 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:29,449 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:29,449 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:29,450 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:29,450 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:32,432 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:42:32,432 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:42:32,433 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp715fyvn9.
+[2025-12-24 16:42:32,434 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:42:32,435 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpamlqac8i.
+[2025-12-24 16:42:32,453 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpamlqac8i
+[2025-12-24 16:42:33,147 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp715fyvn9/index.html
+[2025-12-24 16:42:33,147 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:42:35,182 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:42:35,183 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:42:35,183 kaleido.kaleido] INFO: kaleido : Got E420
+[2025-12-24 16:42:35,183 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 16:42:35,183 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:42:35,387 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:42:35,390 kaleido.kaleido] INFO: kaleido : Reloading tab E420 before return.
+[2025-12-24 16:42:35,588 kaleido.kaleido] INFO: kaleido : Putting tab E420 back (queue size: 0).
+[2025-12-24 16:42:35,588 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:42:35,588 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:42:35,588 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:35,594 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:35,595 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:35,595 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:35,596 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:35,597 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:35,923 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:35,924 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:35,924 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:35,925 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:35,925 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:35,925 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:38,908 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:42:38,908 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:42:38,910 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmphk47oiim.
+[2025-12-24 16:42:38,911 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:42:38,912 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp8js7g72d.
+[2025-12-24 16:42:38,930 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp8js7g72d
+[2025-12-24 16:42:39,622 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmphk47oiim/index.html
+[2025-12-24 16:42:39,622 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:42:41,643 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:42:41,645 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:42:41,646 kaleido.kaleido] INFO: kaleido : Got D73B
+[2025-12-24 16:42:41,647 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png
+[2025-12-24 16:42:41,648 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 16:42:41,927 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 16:42:41,930 kaleido.kaleido] INFO: kaleido : Reloading tab D73B before return.
+[2025-12-24 16:42:42,114 kaleido.kaleido] INFO: kaleido : Putting tab D73B back (queue size: 0).
+[2025-12-24 16:42:42,115 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:42:42,115 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:42:42,115 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:42,121 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:42,122 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:42,122 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:42,123 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:42,123 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:42,453 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:42,454 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:42,455 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:42,456 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:42,456 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:42,457 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:45,682 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:42:45,682 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:42:45,684 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmph8b9yh90.
+[2025-12-24 16:42:45,684 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:42:45,685 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp61xbmduk.
+[2025-12-24 16:42:45,704 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp61xbmduk
+[2025-12-24 16:42:45,708 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:45,708 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:45,709 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:45,709 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:45,710 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:45,710 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:46,409 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmph8b9yh90/index.html
+[2025-12-24 16:42:46,411 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:42:48,674 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:42:48,676 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:42:48,676 kaleido.kaleido] INFO: kaleido : Got 7FB6
+[2025-12-24 16:42:48,677 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png
+[2025-12-24 16:42:48,677 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 16:42:48,881 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 16:42:48,884 kaleido.kaleido] INFO: kaleido : Reloading tab 7FB6 before return.
+[2025-12-24 16:42:49,083 kaleido.kaleido] INFO: kaleido : Putting tab 7FB6 back (queue size: 0).
+[2025-12-24 16:42:49,086 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:42:49,088 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:42:49,089 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:49,092 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:42:49,093 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:49,094 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:49,094 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:49,094 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:49,424 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:49,425 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:49,425 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:49,425 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:49,426 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:42:49,426 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:42:53,199 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:53,200 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:42:53,200 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:42:53,201 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:03,270 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 16:43:15,111 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 16:43:21,224 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:43:21,228 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:43:21,235 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpxl79ips9.
+[2025-12-24 16:43:21,244 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:43:21,256 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp5b7dq_rq.
+[2025-12-24 16:43:21,323 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp5b7dq_rq
+[2025-12-24 16:43:22,206 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpxl79ips9/index.html
+[2025-12-24 16:43:22,207 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:43:24,753 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:43:24,756 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:43:24,758 kaleido.kaleido] INFO: kaleido : Got 4B8C
+[2025-12-24 16:43:24,760 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:43:24,761 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:43:25,001 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:43:25,004 kaleido.kaleido] INFO: kaleido : Reloading tab 4B8C before return.
+[2025-12-24 16:43:25,189 kaleido.kaleido] INFO: kaleido : Putting tab 4B8C back (queue size: 0).
+[2025-12-24 16:43:25,189 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:43:25,189 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:43:25,189 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:43:25,198 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:43:25,199 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:25,205 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:25,205 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:43:25,206 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:43:25,525 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:25,526 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:25,526 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:25,526 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:25,527 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:43:25,527 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:43:28,828 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:43:28,828 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:43:28,829 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp9f5c6lhi.
+[2025-12-24 16:43:28,830 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:43:28,830 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp1cpr0psu.
+[2025-12-24 16:43:28,848 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp1cpr0psu
+[2025-12-24 16:43:29,577 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp9f5c6lhi/index.html
+[2025-12-24 16:43:29,577 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:43:31,813 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:43:31,814 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:43:31,814 kaleido.kaleido] INFO: kaleido : Got BCAF
+[2025-12-24 16:43:31,815 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:43:31,815 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:43:32,040 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:43:32,043 kaleido.kaleido] INFO: kaleido : Reloading tab BCAF before return.
+[2025-12-24 16:43:32,237 kaleido.kaleido] INFO: kaleido : Putting tab BCAF back (queue size: 0).
+[2025-12-24 16:43:32,237 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:43:32,237 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:43:32,237 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:43:32,240 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:43:32,241 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:32,241 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:32,241 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:43:32,243 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:43:32,523 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:32,524 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:32,524 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:32,525 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:32,525 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:43:32,526 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:43:36,354 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:43:36,354 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:43:36,355 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmptg0k3jgb.
+[2025-12-24 16:43:36,355 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:43:36,356 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmptmzxjivq.
+[2025-12-24 16:43:36,377 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmptmzxjivq
+[2025-12-24 16:43:37,171 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmptg0k3jgb/index.html
+[2025-12-24 16:43:37,172 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:43:37,932 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:37,933 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:37,933 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:37,933 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:40,006 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:43:40,007 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:43:40,007 kaleido.kaleido] INFO: kaleido : Got 2941
+[2025-12-24 16:43:40,008 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 16:43:40,008 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:43:40,208 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:43:40,210 kaleido.kaleido] INFO: kaleido : Reloading tab 2941 before return.
+[2025-12-24 16:43:40,416 kaleido.kaleido] INFO: kaleido : Putting tab 2941 back (queue size: 0).
+[2025-12-24 16:43:40,416 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:43:40,421 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:43:40,421 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:43:40,423 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:43:40,424 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:40,425 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:40,426 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:43:40,427 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:43:40,874 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:40,874 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:40,876 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:40,877 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:40,878 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:43:40,878 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:43:43,990 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:43:43,990 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:43:43,992 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmph0jz_ybf.
+[2025-12-24 16:43:43,993 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:43:43,993 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpi4ebtzy5.
+[2025-12-24 16:43:44,012 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpi4ebtzy5
+[2025-12-24 16:43:44,684 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmph0jz_ybf/index.html
+[2025-12-24 16:43:44,685 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:43:46,701 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:43:46,703 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:43:46,703 kaleido.kaleido] INFO: kaleido : Got 90ED
+[2025-12-24 16:43:46,703 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 16:43:46,704 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:43:46,911 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:43:46,914 kaleido.kaleido] INFO: kaleido : Reloading tab 90ED before return.
+[2025-12-24 16:43:47,233 kaleido.kaleido] INFO: kaleido : Putting tab 90ED back (queue size: 0).
+[2025-12-24 16:43:47,235 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:43:47,235 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:43:47,235 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:43:47,242 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:43:47,245 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:47,245 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:47,245 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:43:47,246 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:43:47,801 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:47,802 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:47,803 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:47,804 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:47,805 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:43:47,806 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:43:51,396 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:51,398 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:43:51,399 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:43:51,399 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:49:48,892 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 16:49:49,086 StreamlitApp] ERROR: main : Calculation Error: 
+The orca executable is required to export figures as static images,
+but it could not be found on the system path.
+
+Searched for executable 'orca' on the following path:
+    /home/ml-brain-dev/ml-brain-env/bin
+    /opt/conda/bin
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+    /opt/conda/bin
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+    /usr/local/bin
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+    /usr/local/games
+    /usr/games
+
+If you haven't installed orca yet, you can do so using conda as follows:
+
+    $ conda install -c plotly plotly-orca
+
+Alternatively, see other installation methods in the orca project README at
+https://github.com/plotly/orca
+
+After installation is complete, no further configuration should be needed.
+
+If you have installed orca, then for some reason plotly.py was unable to
+locate it. In this case, set the `plotly.io.orca.config.executable`
+property to the full path of your orca executable. For example:
+
+    >>> plotly.io.orca.config.executable = '/path/to/orca'
+
+After updating this executable property, try the export operation again.
+If it is successful then you may want to save this configuration so that it
+will be applied automatically in future sessions. You can do this as follows:
+
+    >>> plotly.io.orca.config.save()
+
+If you're still having trouble, feel free to ask for help on the forums at
+https://community.plot.ly/c/api/python
+
+[2025-12-24 16:58:31,654 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 16:58:46,262 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 16:58:51,703 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:58:51,706 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:58:51,710 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp7w45_aqp.
+[2025-12-24 16:58:51,712 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:58:51,718 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpbzvrahxa.
+[2025-12-24 16:58:51,906 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpbzvrahxa
+[2025-12-24 16:58:54,407 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp7w45_aqp/index.html
+[2025-12-24 16:58:54,408 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:58:57,263 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:58:57,269 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:58:57,269 kaleido.kaleido] INFO: kaleido : Got 0115
+[2025-12-24 16:58:57,269 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:58:57,269 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:58:57,548 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:58:57,554 kaleido.kaleido] INFO: kaleido : Reloading tab 0115 before return.
+[2025-12-24 16:58:57,900 kaleido.kaleido] INFO: kaleido : Putting tab 0115 back (queue size: 0).
+[2025-12-24 16:58:57,901 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:58:57,901 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:58:57,901 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:58:57,910 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:58:57,911 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:58:57,911 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:58:57,912 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:58:57,912 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:58:58,191 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:58:58,191 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:58:58,191 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:58:58,192 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:58:58,192 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:58:58,192 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:59:02,430 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:59:02,430 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:59:02,431 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp468_ahnn.
+[2025-12-24 16:59:02,432 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:59:02,432 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpe5w9jpil.
+[2025-12-24 16:59:02,451 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpe5w9jpil
+[2025-12-24 16:59:03,164 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp468_ahnn/index.html
+[2025-12-24 16:59:03,166 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:59:05,283 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:59:05,284 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:59:05,284 kaleido.kaleido] INFO: kaleido : Got 7785
+[2025-12-24 16:59:05,291 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 16:59:05,292 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:59:05,530 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 16:59:05,534 kaleido.kaleido] INFO: kaleido : Reloading tab 7785 before return.
+[2025-12-24 16:59:05,734 kaleido.kaleido] INFO: kaleido : Putting tab 7785 back (queue size: 0).
+[2025-12-24 16:59:05,734 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:59:05,734 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:59:05,734 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:59:05,738 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:59:05,740 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:05,741 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:05,741 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:59:05,741 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:59:06,065 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:06,066 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:06,066 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:06,067 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:06,067 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:59:06,067 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:59:09,306 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:59:09,307 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:59:09,307 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpncuquqiy.
+[2025-12-24 16:59:09,308 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:59:09,310 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpshm_y8ir.
+[2025-12-24 16:59:09,327 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpshm_y8ir
+[2025-12-24 16:59:10,044 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpncuquqiy/index.html
+[2025-12-24 16:59:10,045 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:59:10,114 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:10,116 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:10,116 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:10,116 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:12,147 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:59:12,148 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:59:12,149 kaleido.kaleido] INFO: kaleido : Got E505
+[2025-12-24 16:59:12,149 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 16:59:12,150 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:59:12,335 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:59:12,337 kaleido.kaleido] INFO: kaleido : Reloading tab E505 before return.
+[2025-12-24 16:59:12,531 kaleido.kaleido] INFO: kaleido : Putting tab E505 back (queue size: 0).
+[2025-12-24 16:59:12,532 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:59:12,532 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:59:12,533 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:59:12,538 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:59:12,539 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:12,539 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:12,539 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:59:12,540 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:59:12,864 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:12,865 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:12,865 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:12,865 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:12,866 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:59:12,866 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:59:16,078 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 16:59:16,078 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 16:59:16,080 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpatwjh_ct.
+[2025-12-24 16:59:16,081 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 16:59:16,082 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpio8jdfnd.
+[2025-12-24 16:59:16,108 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpio8jdfnd
+[2025-12-24 16:59:16,837 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpatwjh_ct/index.html
+[2025-12-24 16:59:16,841 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 16:59:18,982 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 16:59:18,985 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 16:59:18,986 kaleido.kaleido] INFO: kaleido : Got C136
+[2025-12-24 16:59:18,988 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 16:59:18,991 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:59:19,202 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 16:59:19,205 kaleido.kaleido] INFO: kaleido : Reloading tab C136 before return.
+[2025-12-24 16:59:19,423 kaleido.kaleido] INFO: kaleido : Putting tab C136 back (queue size: 0).
+[2025-12-24 16:59:19,424 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 16:59:19,424 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 16:59:19,424 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:59:19,429 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 16:59:19,430 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:19,430 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:19,431 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:59:19,431 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:59:19,759 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:19,759 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:19,760 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:19,760 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:19,761 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 16:59:19,761 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 16:59:23,341 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:23,341 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 16:59:23,341 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 16:59:23,341 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:13:19,499 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 17:13:28,931 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 17:14:37,357 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 17:14:43,126 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 17:14:46,088 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:14:46,089 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:14:46,090 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpf0h0j1im.
+[2025-12-24 17:14:46,093 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:14:46,094 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpt7qmyd3r.
+[2025-12-24 17:14:46,218 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpt7qmyd3r
+[2025-12-24 17:14:47,580 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpf0h0j1im/index.html
+[2025-12-24 17:14:47,584 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:14:50,157 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:14:50,160 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:14:50,160 kaleido.kaleido] INFO: kaleido : Got 6AED
+[2025-12-24 17:14:50,161 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 17:14:50,163 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:14:50,655 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:14:50,657 kaleido.kaleido] INFO: kaleido : Reloading tab 6AED before return.
+[2025-12-24 17:14:50,855 kaleido.kaleido] INFO: kaleido : Putting tab 6AED back (queue size: 0).
+[2025-12-24 17:14:50,855 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:14:50,855 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:14:50,855 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:14:50,859 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:14:50,860 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:14:50,860 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:14:50,861 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:14:50,861 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:14:51,263 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:14:51,266 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:14:51,267 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:14:51,268 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:14:51,269 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:14:51,270 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:14:54,846 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:14:54,846 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:14:54,847 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp77wdlp73.
+[2025-12-24 17:14:54,848 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:14:54,849 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpl4h2j8xt.
+[2025-12-24 17:14:54,869 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpl4h2j8xt
+[2025-12-24 17:14:55,591 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp77wdlp73/index.html
+[2025-12-24 17:14:55,592 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:14:57,872 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:14:57,874 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:14:57,875 kaleido.kaleido] INFO: kaleido : Got 1C6C
+[2025-12-24 17:14:57,877 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 17:14:57,878 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:14:58,114 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:14:58,117 kaleido.kaleido] INFO: kaleido : Reloading tab 1C6C before return.
+[2025-12-24 17:14:58,328 kaleido.kaleido] INFO: kaleido : Putting tab 1C6C back (queue size: 0).
+[2025-12-24 17:14:58,328 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:14:58,329 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:14:58,329 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:14:58,335 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:14:58,336 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:14:58,336 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:14:58,337 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:14:58,337 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:14:58,660 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:14:58,661 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:14:58,661 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:14:58,662 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:14:58,662 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:14:58,663 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:15:01,755 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:15:01,756 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:15:01,757 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpoxr1cejv.
+[2025-12-24 17:15:01,757 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:15:01,758 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp644og0bq.
+[2025-12-24 17:15:01,776 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp644og0bq
+[2025-12-24 17:15:02,446 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:15:02,446 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:15:02,448 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:15:02,452 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:15:02,477 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpoxr1cejv/index.html
+[2025-12-24 17:15:02,487 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:15:04,801 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:15:04,802 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:15:04,802 kaleido.kaleido] INFO: kaleido : Got E7F7
+[2025-12-24 17:15:04,803 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 17:15:04,804 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:15:05,020 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:15:05,022 kaleido.kaleido] INFO: kaleido : Reloading tab E7F7 before return.
+[2025-12-24 17:15:05,223 kaleido.kaleido] INFO: kaleido : Putting tab E7F7 back (queue size: 0).
+[2025-12-24 17:15:05,223 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:15:05,224 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:15:05,224 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:15:05,227 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:15:05,228 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:15:05,229 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:15:05,230 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:15:05,232 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:15:05,621 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:15:05,622 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:15:05,623 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:15:05,624 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:15:05,625 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:15:05,626 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:15:08,756 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:15:08,756 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:15:08,757 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpjv5t6cvq.
+[2025-12-24 17:15:08,758 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:15:08,758 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp6ozr74qo.
+[2025-12-24 17:15:08,777 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp6ozr74qo
+[2025-12-24 17:15:09,545 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpjv5t6cvq/index.html
+[2025-12-24 17:15:09,548 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:15:11,789 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:15:11,794 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:15:11,795 kaleido.kaleido] INFO: kaleido : Got 7B04
+[2025-12-24 17:15:11,795 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 17:15:11,796 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:15:12,024 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:15:12,027 kaleido.kaleido] INFO: kaleido : Reloading tab 7B04 before return.
+[2025-12-24 17:15:12,219 kaleido.kaleido] INFO: kaleido : Putting tab 7B04 back (queue size: 0).
+[2025-12-24 17:15:12,219 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:15:12,219 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:15:12,219 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:15:12,222 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:15:12,223 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:15:12,224 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:15:12,224 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:15:12,224 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:15:12,549 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:15:12,550 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:15:12,550 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:15:12,551 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:15:12,552 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:15:12,552 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:15:16,754 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:15:16,757 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:15:16,762 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:15:16,763 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:08,335 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:32:08,336 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:32:08,338 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp4l51v1tl.
+[2025-12-24 17:32:08,340 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:32:08,343 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp5_2jb2_q.
+[2025-12-24 17:32:08,494 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp5_2jb2_q
+[2025-12-24 17:32:09,942 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp4l51v1tl/index.html
+[2025-12-24 17:32:09,944 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:32:12,548 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:32:12,554 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:32:12,555 kaleido.kaleido] INFO: kaleido : Got 0F67
+[2025-12-24 17:32:12,556 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 17:32:12,556 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:32:12,837 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:32:12,843 kaleido.kaleido] INFO: kaleido : Reloading tab 0F67 before return.
+[2025-12-24 17:32:13,098 kaleido.kaleido] INFO: kaleido : Putting tab 0F67 back (queue size: 0).
+[2025-12-24 17:32:13,099 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:32:13,099 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:32:13,100 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:32:13,113 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:32:13,117 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:13,117 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:13,117 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:32:13,118 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:32:13,544 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:13,546 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:13,547 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:13,548 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:13,550 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:32:13,551 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:32:18,256 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:32:18,257 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:32:18,259 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpxkfut9in.
+[2025-12-24 17:32:18,261 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:32:18,264 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpw15yd8gl.
+[2025-12-24 17:32:18,380 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpw15yd8gl
+[2025-12-24 17:32:20,158 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpxkfut9in/index.html
+[2025-12-24 17:32:20,159 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:32:26,437 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:32:26,454 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:32:26,462 kaleido.kaleido] INFO: kaleido : Got AA07
+[2025-12-24 17:32:26,464 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 17:32:26,467 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:32:26,981 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:32:26,986 kaleido.kaleido] INFO: kaleido : Reloading tab AA07 before return.
+[2025-12-24 17:32:27,347 kaleido.kaleido] INFO: kaleido : Putting tab AA07 back (queue size: 0).
+[2025-12-24 17:32:27,348 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:32:27,350 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:32:27,350 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:32:27,361 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:32:27,362 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:27,365 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:27,365 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:32:27,366 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:32:27,810 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:27,811 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:27,812 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:27,813 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:27,814 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:32:27,814 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:32:32,639 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:32:32,640 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:32:32,640 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpr1gwvpa6.
+[2025-12-24 17:32:32,641 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:32:32,642 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpv3s9syvb.
+[2025-12-24 17:32:32,685 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpv3s9syvb
+[2025-12-24 17:32:32,690 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:32,691 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:32,692 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:32,692 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:33,535 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpr1gwvpa6/index.html
+[2025-12-24 17:32:33,537 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:32:35,883 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:32:35,887 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:32:35,888 kaleido.kaleido] INFO: kaleido : Got FC8E
+[2025-12-24 17:32:35,889 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 17:32:35,889 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:32:36,191 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:32:36,196 kaleido.kaleido] INFO: kaleido : Reloading tab FC8E before return.
+[2025-12-24 17:32:36,461 kaleido.kaleido] INFO: kaleido : Putting tab FC8E back (queue size: 0).
+[2025-12-24 17:32:36,461 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:32:36,461 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:32:36,461 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:32:36,465 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:32:36,467 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:36,467 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:36,467 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:32:36,467 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:32:36,972 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:36,975 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:36,978 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:36,982 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:36,982 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:32:36,983 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:32:40,918 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:32:40,919 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:32:40,919 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp0wisrrp_.
+[2025-12-24 17:32:40,920 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:32:40,922 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp9yf2k7ww.
+[2025-12-24 17:32:40,944 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp9yf2k7ww
+[2025-12-24 17:32:41,809 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp0wisrrp_/index.html
+[2025-12-24 17:32:41,811 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:32:44,237 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:32:44,240 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:32:44,240 kaleido.kaleido] INFO: kaleido : Got 4A0F
+[2025-12-24 17:32:44,240 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 17:32:44,241 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:32:44,513 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:32:44,517 kaleido.kaleido] INFO: kaleido : Reloading tab 4A0F before return.
+[2025-12-24 17:32:44,801 kaleido.kaleido] INFO: kaleido : Putting tab 4A0F back (queue size: 0).
+[2025-12-24 17:32:44,801 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:32:44,801 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:32:44,802 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:32:44,812 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:32:44,813 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:44,814 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:44,814 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:32:44,814 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:32:45,310 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:45,311 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:45,312 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:45,314 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:45,315 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:32:45,317 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:32:49,846 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:49,848 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:32:49,856 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:32:49,860 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:35:12,197 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 17:35:25,093 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 17:35:39,096 StreamlitApp] INFO: main : Calculated specs for Boost converter with Vin=12.0V, Vo=50.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 17:35:46,230 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:35:46,234 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:35:46,240 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp4fm9r2gh.
+[2025-12-24 17:35:46,242 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:35:46,253 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp8jgrzlv_.
+[2025-12-24 17:35:46,427 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp8jgrzlv_
+[2025-12-24 17:35:49,113 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp4fm9r2gh/index.html
+[2025-12-24 17:35:49,114 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:35:52,186 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:35:52,195 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:35:52,195 kaleido.kaleido] INFO: kaleido : Got 5679
+[2025-12-24 17:35:52,198 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 17:35:52,202 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:35:52,593 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:35:52,598 kaleido.kaleido] INFO: kaleido : Reloading tab 5679 before return.
+[2025-12-24 17:35:52,886 kaleido.kaleido] INFO: kaleido : Putting tab 5679 back (queue size: 0).
+[2025-12-24 17:35:52,887 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:35:52,888 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:35:52,888 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:35:52,895 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:35:52,896 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:35:52,896 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:35:52,897 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:35:52,897 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:35:53,350 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:35:53,351 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:35:53,352 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:35:53,353 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:35:53,354 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:35:53,357 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:35:57,801 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:35:57,802 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:35:57,803 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpb3ek_s0w.
+[2025-12-24 17:35:57,805 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:35:57,808 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpcj2o54hp.
+[2025-12-24 17:35:57,839 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpcj2o54hp
+[2025-12-24 17:35:58,867 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpb3ek_s0w/index.html
+[2025-12-24 17:35:58,868 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:36:01,469 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:36:01,470 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:36:01,471 kaleido.kaleido] INFO: kaleido : Got 2D2E
+[2025-12-24 17:36:01,471 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 17:36:01,471 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:36:01,866 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:36:01,869 kaleido.kaleido] INFO: kaleido : Reloading tab 2D2E before return.
+[2025-12-24 17:36:02,132 kaleido.kaleido] INFO: kaleido : Putting tab 2D2E back (queue size: 0).
+[2025-12-24 17:36:02,132 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:36:02,133 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:36:02,133 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:36:02,136 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:36:02,137 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:02,137 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:02,138 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:36:02,138 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:36:02,478 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:02,480 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:02,481 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:02,482 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:02,483 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:36:02,484 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:36:07,025 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:36:07,026 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:36:07,027 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpd0hutqw1.
+[2025-12-24 17:36:07,028 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:36:07,030 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp7rchsktp.
+[2025-12-24 17:36:07,051 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp7rchsktp
+[2025-12-24 17:36:07,895 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:07,899 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:07,905 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:07,905 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:07,957 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpd0hutqw1/index.html
+[2025-12-24 17:36:07,958 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:36:10,594 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:36:10,596 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:36:10,597 kaleido.kaleido] INFO: kaleido : Got 972E
+[2025-12-24 17:36:10,598 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 17:36:10,599 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:36:10,873 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:36:10,876 kaleido.kaleido] INFO: kaleido : Reloading tab 972E before return.
+[2025-12-24 17:36:11,114 kaleido.kaleido] INFO: kaleido : Putting tab 972E back (queue size: 0).
+[2025-12-24 17:36:11,115 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:36:11,116 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:36:11,116 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:36:11,130 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:36:11,133 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:11,135 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:11,135 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:36:11,135 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:36:11,566 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:11,567 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:11,567 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:11,569 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:11,570 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:36:11,570 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:36:16,582 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:36:16,582 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:36:16,585 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp3gz0ve6t.
+[2025-12-24 17:36:16,585 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:36:16,586 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpafker4i0.
+[2025-12-24 17:36:16,607 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpafker4i0
+[2025-12-24 17:36:17,576 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp3gz0ve6t/index.html
+[2025-12-24 17:36:17,576 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:36:20,114 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:36:20,119 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:36:20,132 kaleido.kaleido] INFO: kaleido : Got 3AAA
+[2025-12-24 17:36:20,141 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 17:36:20,149 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:36:20,538 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:36:20,541 kaleido.kaleido] INFO: kaleido : Reloading tab 3AAA before return.
+[2025-12-24 17:36:20,779 kaleido.kaleido] INFO: kaleido : Putting tab 3AAA back (queue size: 0).
+[2025-12-24 17:36:20,779 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:36:20,780 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:36:20,780 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:36:20,790 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:36:20,790 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:20,791 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:20,791 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:36:20,791 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:36:21,354 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:21,357 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:21,358 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:21,359 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:21,361 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:36:21,363 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:36:26,452 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:36:26,452 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:36:26,454 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpdbxopzlw.
+[2025-12-24 17:36:26,455 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:36:26,460 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp1946ks15.
+[2025-12-24 17:36:26,484 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp1946ks15
+[2025-12-24 17:36:27,627 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpdbxopzlw/index.html
+[2025-12-24 17:36:27,627 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:36:30,171 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:36:30,179 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:36:30,182 kaleido.kaleido] INFO: kaleido : Got C601
+[2025-12-24 17:36:30,185 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png
+[2025-12-24 17:36:30,193 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:36:30,596 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:36:30,599 kaleido.kaleido] INFO: kaleido : Reloading tab C601 before return.
+[2025-12-24 17:36:30,904 kaleido.kaleido] INFO: kaleido : Putting tab C601 back (queue size: 0).
+[2025-12-24 17:36:30,904 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:36:30,914 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:36:30,915 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:36:30,924 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:36:30,928 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:30,928 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:30,928 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:36:30,941 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:36:31,300 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:31,302 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:31,305 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:31,309 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:31,314 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:36:31,315 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:36:35,876 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:36:35,877 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:36:35,878 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpf6mf9cxc.
+[2025-12-24 17:36:35,879 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:36:35,881 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpd2itc8oc.
+[2025-12-24 17:36:35,901 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpd2itc8oc
+[2025-12-24 17:36:36,747 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpf6mf9cxc/index.html
+[2025-12-24 17:36:36,751 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:36:39,317 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:36:39,333 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:36:39,338 kaleido.kaleido] INFO: kaleido : Got 91F1
+[2025-12-24 17:36:39,348 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png
+[2025-12-24 17:36:39,357 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:36:39,740 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:36:39,744 kaleido.kaleido] INFO: kaleido : Reloading tab 91F1 before return.
+[2025-12-24 17:36:39,993 kaleido.kaleido] INFO: kaleido : Putting tab 91F1 back (queue size: 0).
+[2025-12-24 17:36:39,993 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:36:39,994 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:36:39,995 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:36:40,009 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:36:40,010 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:40,011 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:40,012 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:36:40,012 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:36:40,545 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:40,547 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:40,549 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:40,551 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:40,552 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:36:40,553 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:36:45,360 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:45,363 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:45,372 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:45,378 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:45,380 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:45,381 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:36:45,383 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:36:45,386 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:45:05,314 StreamlitApp] ERROR: main : Input Error: Output voltage must be less than input voltage for Buck and Buck-Boost converters, and greater for Boost converters.
+[2025-12-24 17:45:30,296 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=10.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 17:45:58,533 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:45:58,536 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:45:58,538 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpv_1szatm.
+[2025-12-24 17:45:58,541 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:45:58,546 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpdmk_1ch_.
+[2025-12-24 17:45:58,670 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpdmk_1ch_
+[2025-12-24 17:46:00,101 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpv_1szatm/index.html
+[2025-12-24 17:46:00,101 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:46:03,211 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:46:03,231 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:46:03,241 kaleido.kaleido] INFO: kaleido : Got 1F76
+[2025-12-24 17:46:03,251 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 17:46:03,257 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:46:03,678 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:46:03,689 kaleido.kaleido] INFO: kaleido : Reloading tab 1F76 before return.
+[2025-12-24 17:46:04,009 kaleido.kaleido] INFO: kaleido : Putting tab 1F76 back (queue size: 0).
+[2025-12-24 17:46:04,010 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:46:04,010 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:46:04,011 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:04,015 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:04,017 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:04,018 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:04,018 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:04,018 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:04,445 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:04,446 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:04,447 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:04,448 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:04,450 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:04,452 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:08,447 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:46:08,448 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:46:08,449 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmppn83z6qr.
+[2025-12-24 17:46:08,450 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:46:08,451 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpaq8i_yw1.
+[2025-12-24 17:46:08,477 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpaq8i_yw1
+[2025-12-24 17:46:09,384 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmppn83z6qr/index.html
+[2025-12-24 17:46:09,387 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:46:11,697 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:46:11,711 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:46:11,711 kaleido.kaleido] INFO: kaleido : Got 9DB5
+[2025-12-24 17:46:11,712 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 17:46:11,713 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:46:12,057 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:46:12,075 kaleido.kaleido] INFO: kaleido : Reloading tab 9DB5 before return.
+[2025-12-24 17:46:12,523 kaleido.kaleido] INFO: kaleido : Putting tab 9DB5 back (queue size: 0).
+[2025-12-24 17:46:12,525 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:46:12,525 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:46:12,526 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:12,533 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:12,534 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:12,536 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:12,537 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:12,538 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:12,894 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:12,895 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:12,898 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:12,900 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:12,902 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:12,903 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:16,617 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:46:16,617 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:46:16,619 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpsjzphwvj.
+[2025-12-24 17:46:16,620 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:46:16,622 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpok1ic798.
+[2025-12-24 17:46:16,640 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpok1ic798
+[2025-12-24 17:46:17,489 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:17,490 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:17,490 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:17,491 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:17,538 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpsjzphwvj/index.html
+[2025-12-24 17:46:17,539 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:46:19,925 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:46:19,947 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:46:19,953 kaleido.kaleido] INFO: kaleido : Got C539
+[2025-12-24 17:46:19,959 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 17:46:19,965 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:46:20,347 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:46:20,351 kaleido.kaleido] INFO: kaleido : Reloading tab C539 before return.
+[2025-12-24 17:46:20,635 kaleido.kaleido] INFO: kaleido : Putting tab C539 back (queue size: 0).
+[2025-12-24 17:46:20,635 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:46:20,635 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:46:20,636 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:20,647 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:20,648 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:20,649 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:20,650 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:20,651 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:21,077 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:21,077 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:21,078 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:21,079 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:21,079 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:21,079 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:24,887 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:46:24,887 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:46:24,889 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmplm7z008w.
+[2025-12-24 17:46:24,892 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:46:24,894 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp9ptvln3g.
+[2025-12-24 17:46:24,929 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp9ptvln3g
+[2025-12-24 17:46:25,777 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmplm7z008w/index.html
+[2025-12-24 17:46:25,779 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:46:27,947 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:46:27,951 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:46:27,951 kaleido.kaleido] INFO: kaleido : Got CF1E
+[2025-12-24 17:46:27,951 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 17:46:27,951 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:46:28,277 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:46:28,281 kaleido.kaleido] INFO: kaleido : Reloading tab CF1E before return.
+[2025-12-24 17:46:28,496 kaleido.kaleido] INFO: kaleido : Putting tab CF1E back (queue size: 0).
+[2025-12-24 17:46:28,496 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:46:28,497 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:46:28,497 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:28,501 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:28,501 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:28,502 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:28,503 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:28,504 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:28,962 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:28,963 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:28,964 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:28,967 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:28,971 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:28,973 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:32,693 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:46:32,694 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:46:32,700 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp9yiotvgh.
+[2025-12-24 17:46:32,702 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:46:32,703 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpox1orf6e.
+[2025-12-24 17:46:32,723 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpox1orf6e
+[2025-12-24 17:46:33,508 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp9yiotvgh/index.html
+[2025-12-24 17:46:33,509 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:46:35,976 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:46:35,978 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:46:35,982 kaleido.kaleido] INFO: kaleido : Got BC1B
+[2025-12-24 17:46:35,983 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png
+[2025-12-24 17:46:35,984 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:46:36,387 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:46:36,400 kaleido.kaleido] INFO: kaleido : Reloading tab BC1B before return.
+[2025-12-24 17:46:36,710 kaleido.kaleido] INFO: kaleido : Putting tab BC1B back (queue size: 0).
+[2025-12-24 17:46:36,711 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:46:36,713 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:46:36,713 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:36,727 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:36,727 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:36,728 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:36,728 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:36,728 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:37,019 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:37,021 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:37,023 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:37,024 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:37,026 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:37,030 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:41,081 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:46:41,081 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:46:41,084 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpb6oomdvt.
+[2025-12-24 17:46:41,085 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:46:41,092 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpcc0tcok8.
+[2025-12-24 17:46:41,114 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpcc0tcok8
+[2025-12-24 17:46:42,459 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpb6oomdvt/index.html
+[2025-12-24 17:46:42,464 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:46:44,807 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:46:44,812 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:46:44,817 kaleido.kaleido] INFO: kaleido : Got CA96
+[2025-12-24 17:46:44,818 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png
+[2025-12-24 17:46:44,819 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:46:45,275 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:46:45,280 kaleido.kaleido] INFO: kaleido : Reloading tab CA96 before return.
+[2025-12-24 17:46:45,573 kaleido.kaleido] INFO: kaleido : Putting tab CA96 back (queue size: 0).
+[2025-12-24 17:46:45,574 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:46:45,574 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:46:45,576 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:45,578 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:45,579 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:45,580 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:45,581 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:45,582 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:45,928 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:45,929 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:45,930 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:45,932 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:45,933 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:45,933 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:50,342 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:46:50,342 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:46:50,344 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpjsonyjta.
+[2025-12-24 17:46:50,345 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:46:50,348 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmphb14ywj0.
+[2025-12-24 17:46:50,380 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmphb14ywj0
+[2025-12-24 17:46:51,250 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpjsonyjta/index.html
+[2025-12-24 17:46:51,250 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:46:51,252 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:51,252 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:51,252 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:51,252 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:51,252 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:51,256 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:54,402 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:46:54,427 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:46:54,431 kaleido.kaleido] INFO: kaleido : Got 07F8
+[2025-12-24 17:46:54,433 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png
+[2025-12-24 17:46:54,446 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png.
+[2025-12-24 17:46:54,854 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png.
+[2025-12-24 17:46:54,858 kaleido.kaleido] INFO: kaleido : Reloading tab 07F8 before return.
+[2025-12-24 17:46:55,223 kaleido.kaleido] INFO: kaleido : Putting tab 07F8 back (queue size: 0).
+[2025-12-24 17:46:55,224 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:46:55,225 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:46:55,225 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:55,246 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:46:55,250 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:55,253 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:55,253 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:55,253 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:55,803 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:55,804 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:55,805 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:46:55,807 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:46:55,808 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:46:55,809 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:46:59,180 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:46:59,181 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:46:59,183 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpghmnu2aw.
+[2025-12-24 17:46:59,184 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:46:59,186 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpz57e_4w7.
+[2025-12-24 17:46:59,208 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpz57e_4w7
+[2025-12-24 17:47:00,125 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpghmnu2aw/index.html
+[2025-12-24 17:47:00,126 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:47:02,398 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:47:02,403 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:47:02,405 kaleido.kaleido] INFO: kaleido : Got 225C
+[2025-12-24 17:47:02,408 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png
+[2025-12-24 17:47:02,420 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png.
+[2025-12-24 17:47:02,769 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png.
+[2025-12-24 17:47:02,772 kaleido.kaleido] INFO: kaleido : Reloading tab 225C before return.
+[2025-12-24 17:47:02,998 kaleido.kaleido] INFO: kaleido : Putting tab 225C back (queue size: 0).
+[2025-12-24 17:47:02,998 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:47:02,999 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:47:02,999 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:47:03,001 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:47:03,002 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:47:03,004 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:47:03,005 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:47:03,006 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:47:03,448 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:47:03,449 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:47:03,450 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:47:03,450 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:47:03,450 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:47:03,450 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:47:07,964 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:47:07,969 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:47:07,970 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:47:07,971 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:47:07,971 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:47:07,972 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:27,556 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:48:27,558 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:48:27,559 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmplvmr0ic4.
+[2025-12-24 17:48:27,561 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:48:27,564 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpo8gz0yh0.
+[2025-12-24 17:48:27,667 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpo8gz0yh0
+[2025-12-24 17:48:28,772 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmplvmr0ic4/index.html
+[2025-12-24 17:48:28,772 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:48:31,386 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:48:31,390 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:48:31,393 kaleido.kaleido] INFO: kaleido : Got 789D
+[2025-12-24 17:48:31,398 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 17:48:31,398 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:48:31,780 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:48:31,784 kaleido.kaleido] INFO: kaleido : Reloading tab 789D before return.
+[2025-12-24 17:48:32,005 kaleido.kaleido] INFO: kaleido : Putting tab 789D back (queue size: 0).
+[2025-12-24 17:48:32,005 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:48:32,006 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:48:32,006 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:48:32,009 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:48:32,018 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:32,018 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:32,019 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:48:32,019 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:48:32,340 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:32,341 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:32,341 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:32,342 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:32,342 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:48:32,343 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:48:35,676 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:48:35,676 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:48:35,677 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpf6h806c1.
+[2025-12-24 17:48:35,678 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:48:35,679 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp6ud_be_u.
+[2025-12-24 17:48:35,701 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp6ud_be_u
+[2025-12-24 17:48:36,424 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpf6h806c1/index.html
+[2025-12-24 17:48:36,425 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:48:38,720 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:48:38,727 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:48:38,728 kaleido.kaleido] INFO: kaleido : Got 92A0
+[2025-12-24 17:48:38,729 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2025-12-24 17:48:38,730 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:48:38,998 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2025-12-24 17:48:39,001 kaleido.kaleido] INFO: kaleido : Reloading tab 92A0 before return.
+[2025-12-24 17:48:39,289 kaleido.kaleido] INFO: kaleido : Putting tab 92A0 back (queue size: 0).
+[2025-12-24 17:48:39,289 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:48:39,289 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:48:39,289 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:48:39,298 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:48:39,299 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:39,299 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:39,299 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:48:39,300 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:48:39,711 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:39,712 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:39,712 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:39,715 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:39,717 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:48:39,718 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:48:43,252 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:48:43,252 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:48:43,253 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmppwis72f3.
+[2025-12-24 17:48:43,254 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:48:43,256 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpkhkqedb7.
+[2025-12-24 17:48:43,274 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpkhkqedb7
+[2025-12-24 17:48:43,974 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:43,976 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:43,976 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:43,976 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:44,015 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmppwis72f3/index.html
+[2025-12-24 17:48:44,016 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:48:46,251 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:48:46,260 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:48:46,263 kaleido.kaleido] INFO: kaleido : Got 722B
+[2025-12-24 17:48:46,266 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 17:48:46,267 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:48:46,605 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:48:46,606 kaleido.kaleido] INFO: kaleido : Reloading tab 722B before return.
+[2025-12-24 17:48:46,801 kaleido.kaleido] INFO: kaleido : Putting tab 722B back (queue size: 0).
+[2025-12-24 17:48:46,801 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:48:46,801 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:48:46,801 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:48:46,808 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:48:46,809 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:46,809 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:46,810 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:48:46,810 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:48:47,242 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:47,243 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:47,243 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:47,243 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:47,244 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:48:47,244 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:48:50,429 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:48:50,430 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:48:50,431 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmplmhkas8z.
+[2025-12-24 17:48:50,432 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:48:50,433 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpktugnwwk.
+[2025-12-24 17:48:50,452 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpktugnwwk
+[2025-12-24 17:48:51,173 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmplmhkas8z/index.html
+[2025-12-24 17:48:51,174 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:48:53,707 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:48:53,714 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:48:53,714 kaleido.kaleido] INFO: kaleido : Got D657
+[2025-12-24 17:48:53,714 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2025-12-24 17:48:53,714 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:48:54,063 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2025-12-24 17:48:54,065 kaleido.kaleido] INFO: kaleido : Reloading tab D657 before return.
+[2025-12-24 17:48:54,276 kaleido.kaleido] INFO: kaleido : Putting tab D657 back (queue size: 0).
+[2025-12-24 17:48:54,276 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:48:54,277 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:48:54,277 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:48:54,286 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:48:54,287 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:54,288 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:54,288 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:48:54,288 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:48:54,746 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:54,746 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:54,747 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:48:54,749 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:48:54,749 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:48:54,750 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:48:59,572 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:48:59,573 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:48:59,574 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp1_ml7p3m.
+[2025-12-24 17:48:59,575 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:48:59,583 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmphtm4b3qe.
+[2025-12-24 17:48:59,621 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmphtm4b3qe
+[2025-12-24 17:49:00,752 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp1_ml7p3m/index.html
+[2025-12-24 17:49:00,752 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:49:03,474 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:49:03,482 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:49:03,485 kaleido.kaleido] INFO: kaleido : Got B7F5
+[2025-12-24 17:49:03,486 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png
+[2025-12-24 17:49:03,487 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:49:03,937 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:49:03,944 kaleido.kaleido] INFO: kaleido : Reloading tab B7F5 before return.
+[2025-12-24 17:49:04,233 kaleido.kaleido] INFO: kaleido : Putting tab B7F5 back (queue size: 0).
+[2025-12-24 17:49:04,235 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:49:04,237 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:49:04,239 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:49:04,244 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:49:04,247 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:04,248 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:04,248 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:49:04,249 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:49:04,535 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:04,536 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:04,537 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:04,539 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:04,540 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:49:04,541 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:49:07,972 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:49:07,972 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:49:07,974 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpxtmq3j5r.
+[2025-12-24 17:49:07,975 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:49:07,976 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp0ywen0ez.
+[2025-12-24 17:49:07,994 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp0ywen0ez
+[2025-12-24 17:49:08,694 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpxtmq3j5r/index.html
+[2025-12-24 17:49:08,694 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:49:11,022 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:49:11,025 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:49:11,027 kaleido.kaleido] INFO: kaleido : Got 331B
+[2025-12-24 17:49:11,029 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png
+[2025-12-24 17:49:11,031 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:49:11,291 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Boost_Vin_120_D_076.png.
+[2025-12-24 17:49:11,295 kaleido.kaleido] INFO: kaleido : Reloading tab 331B before return.
+[2025-12-24 17:49:11,482 kaleido.kaleido] INFO: kaleido : Putting tab 331B back (queue size: 0).
+[2025-12-24 17:49:11,483 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:49:11,483 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:49:11,483 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:49:11,491 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:49:11,492 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:11,492 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:11,493 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:49:11,493 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:49:11,819 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:11,820 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:11,820 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:11,821 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:11,821 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:49:11,821 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:49:15,723 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:49:15,724 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:49:15,724 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmppaypfau0.
+[2025-12-24 17:49:15,725 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:49:15,726 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmptg04mzxh.
+[2025-12-24 17:49:15,743 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmptg04mzxh
+[2025-12-24 17:49:16,453 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmppaypfau0/index.html
+[2025-12-24 17:49:16,453 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:49:19,186 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:49:19,190 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:49:19,191 kaleido.kaleido] INFO: kaleido : Got 69B1
+[2025-12-24 17:49:19,192 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png
+[2025-12-24 17:49:19,192 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png.
+[2025-12-24 17:49:19,454 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png.
+[2025-12-24 17:49:19,456 kaleido.kaleido] INFO: kaleido : Reloading tab 69B1 before return.
+[2025-12-24 17:49:19,667 kaleido.kaleido] INFO: kaleido : Putting tab 69B1 back (queue size: 0).
+[2025-12-24 17:49:19,667 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:49:19,667 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:49:19,668 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:49:19,669 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:19,669 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:19,669 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:19,669 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:19,670 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:19,670 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:19,674 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:49:19,677 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:19,678 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:19,679 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:49:19,679 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:49:20,112 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:20,113 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:20,114 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:20,115 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:20,116 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:49:20,116 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:49:23,214 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2025-12-24 17:49:23,214 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/ml-brain-dev/ml-brain-env/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2025-12-24 17:49:23,215 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmppguibyhp.
+[2025-12-24 17:49:23,216 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2025-12-24 17:49:23,218 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpsq6j9mhq.
+[2025-12-24 17:49:23,235 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpsq6j9mhq
+[2025-12-24 17:49:23,900 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmppguibyhp/index.html
+[2025-12-24 17:49:23,904 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2025-12-24 17:49:27,239 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2025-12-24 17:49:27,241 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2025-12-24 17:49:27,243 kaleido.kaleido] INFO: kaleido : Got 316A
+[2025-12-24 17:49:27,245 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png
+[2025-12-24 17:49:27,245 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png.
+[2025-12-24 17:49:27,503 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0833.png.
+[2025-12-24 17:49:27,506 kaleido.kaleido] INFO: kaleido : Reloading tab 316A before return.
+[2025-12-24 17:49:27,748 kaleido.kaleido] INFO: kaleido : Putting tab 316A back (queue size: 0).
+[2025-12-24 17:49:27,748 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2025-12-24 17:49:27,750 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2025-12-24 17:49:27,751 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:49:27,758 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2025-12-24 17:49:27,761 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:27,761 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:27,762 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:49:27,762 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:49:28,093 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:28,095 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:28,095 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:28,097 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:28,098 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2025-12-24 17:49:28,099 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2025-12-24 17:49:32,125 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:32,127 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:32,128 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:32,129 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 17:49:32,130 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2025-12-24 17:49:32,131 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2025-12-24 18:17:48,667 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:20:06,584 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:21:52,877 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:22:47,030 StreamlitApp] ERROR: main : Calculation Error: must provide indices of length 2 for transfer functions
+[2025-12-24 18:23:36,925 StreamlitApp] ERROR: main : Calculation Error: must provide indices of length 2 for transfer functions
+[2025-12-24 18:23:57,911 StreamlitApp] ERROR: main : Calculation Error: index 0 is out of bounds for axis 1 with size 0
+[2025-12-24 18:25:44,199 StreamlitApp] ERROR: main : Calculation Error: must provide indices of length 2 for transfer functions
+[2025-12-24 18:26:48,695 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:28:11,323 StreamlitApp] ERROR: main : Calculation Error: must provide indices of length 2 for transfer functions
+[2025-12-24 18:28:42,322 StreamlitApp] ERROR: main : Calculation Error: must provide indices of length 2 for transfer functions
+[2025-12-24 18:29:14,276 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:33:11,853 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:35:09,667 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:36:03,540 StreamlitApp] ERROR: main : Calculation Error: must provide indices of length 2 for transfer functions
+[2025-12-24 18:36:23,368 StreamlitApp] ERROR: main : Calculation Error: must provide indices of length 2 for transfer functions
+[2025-12-24 18:47:50,202 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:48:56,513 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:49:40,742 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:50:57,825 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:52:31,762 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:53:18,241 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:54:53,582 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:55:14,122 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
+[2025-12-24 18:55:35,165 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V, Rload=10.0Ohms, fsw=10000.0Hz, Irp=10.0%, Vrp=1.0%
