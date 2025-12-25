@@ -10,6 +10,9 @@ import pandas as pd
 import plotly.io as pio
 import tf_response as tfr
 import streamlit as st
+import matplotlib.pyplot as plt
+from io import BytesIO
+
 pio.renderers.default = "browser"
 
 
@@ -34,21 +37,96 @@ logger = logging.getLogger('StreamlitApp')
 
 # Use Streamlit session state for history
 if "history_df" not in st.session_state:
-    st.session_state["history_df"] = pd.DataFrame(columns=["Specs", "line_to_op_resp", "ctrl_to_op_resp"])
+    st.session_state["history_df"] = pd.DataFrame(columns=[
+        "Specs", "line_to_op_tf", "line_to_op_resp", "ctrl_to_op_tf", "ctrl_to_op_resp",
+        "sys_g_obj", "sys_d_obj"  # Store actual transfer function objects
+    ])
 
-def save_to_history(specs: str, line_plot, ctrl_plot) -> None:
-    # Use session state to persist history
+
+def save_to_history(specs: str, gvg_latex: str, gvd_latex: str, line_plot, ctrl_plot, sys_g, sys_d) -> None:
+    """Save calculation results to history including transfer function objects"""
     st.session_state["history_df"] = pd.concat([
         st.session_state["history_df"],
         pd.DataFrame({
             "Specs": [specs],
+            "line_to_op_tf": [gvg_latex],
             "line_to_op_resp": [line_plot],
-            "ctrl_to_op_resp": [ctrl_plot]
+            "ctrl_to_op_tf": [gvd_latex],
+            "ctrl_to_op_resp": [ctrl_plot],
+            "sys_g_obj": [sys_g],  # Store the actual system object
+            "sys_d_obj": [sys_d]   # Store the actual system object
         })
     ], ignore_index=True)
 
 
+def latex_to_image(latex_string, fontsize=12, dpi=300):
+    """Convert LaTeX string to PNG image bytes"""
+    fig = plt.figure(figsize=(10, 0.8))
+    fig.patch.set_facecolor('white')
+    
+    # Render LaTeX
+    fig.text(0.5, 0.5, f'${latex_string}$', 
+             fontsize=fontsize, 
+             ha='center', 
+             va='center')
+    
+    # Save to bytes
+    buf = BytesIO()
+    plt.savefig(buf, format='png', dpi=dpi, bbox_inches='tight', 
+                facecolor='white', edgecolor='none', pad_inches=0.1)
+    plt.close(fig)
+    buf.seek(0)
+    
+    return buf
+
+
+def tf_to_latex(sys, var='s', name='H'):
+    """Format transfer function for LaTeX display with proper sign handling"""
+    num = sys.num[0][0]
+    den = sys.den[0][0]
+    
+    def format_polynomial(coeffs):
+        """Format polynomial coefficients with proper signs"""
+        terms = []
+        for i, coef in enumerate(coeffs):
+            if abs(coef) < 1e-10:  # Skip near-zero coefficients
+                continue
+                
+            power = len(coeffs) - i - 1
+            
+            # Format coefficient
+            coef_str = f"{abs(coef):.4g}"
+            
+            # Format power
+            if power == 0:
+                term = coef_str
+            elif power == 1:
+                term = f"{coef_str}{var}"
+            else:
+                term = f"{coef_str}{var}^{{{power}}}"
+            
+            # Add sign
+            if len(terms) == 0:  # First term
+                if coef < 0:
+                    term = "-" + term
+            else:  # Subsequent terms
+                if coef < 0:
+                    term = " - " + term
+                else:
+                    term = " + " + term
+            
+            terms.append(term)
+        
+        return "".join(terms) if terms else "0"
+    
+    num_latex = format_polynomial(num)
+    den_latex = format_polynomial(den)
+    
+    return rf"{name}({var}) = \frac{{{num_latex}}}{{{den_latex}}}"
+
+
 def download_history_as_pdf_with_plots():
+    """Generate PDF with all calculation history including transfer functions"""
     if st.session_state["history_df"].empty:
         st.warning("No calculation history to download.")
         return
@@ -56,68 +134,116 @@ def download_history_as_pdf_with_plots():
     with st.spinner("Generating PDF, please wait..."):
         pdf = FPDF()
         pdf.set_auto_page_break(auto=True, margin=15)
-        pdf.set_font("Arial", size=12)
 
         for idx, row in st.session_state["history_df"].iterrows():
             pdf.add_page()
-            pdf.set_font("Arial", "B", 14)
-            pdf.cell(0, 10, "DC-DC Converter Calculation History", ln=True, align="C")
-            pdf.cell(0, 8, f"Calculation {idx + 1}", ln=True, align="C")
-            pdf.set_font("Arial", size=10)
+            
+            # Title
+            pdf.set_font("Arial", "B", 16)
+            pdf.cell(0, 10, "DC-DC Converter Analysis Report", ln=True, align="R")
+            pdf.ln(2)
+            
+            pdf.set_font("Arial", "B", 12)
+            pdf.cell(0, 8, f"Calculation #{idx + 1}", ln=True, align="C")
+            pdf.ln(5)
+            
+            # Specs section
+            pdf.set_font("Arial", "B", 11)
+            pdf.cell(0, 8, "Converter Specifications:", ln=True)
+            pdf.set_font("Arial", "", 9)
+            
             # Add specs text, line by line
             for line in row["Specs"].splitlines():
-                pdf.multi_cell(0, 6, line)
+                if line.strip():  # Skip empty lines
+                    pdf.multi_cell(0, 6.5, line.strip())
+            pdf.ln(20)
+            
+            # Transfer Functions Section
+            pdf.set_font("Arial", "B", 11)
+            pdf.cell(0, 8, "Transfer Functions:", ln=True)
             pdf.ln(2)
-
-            # Save plots as temporary images and add to PDF
-            for plot, title in zip(
-                [row["line_to_op_resp"], row["ctrl_to_op_resp"]],
-                ["Line to Output Response", "Control to Output Response"]
-            ):
-                with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as imgfile:
-                    plot.write_image(imgfile.name, format="png", scale=2)
-                    # pio.kaleido.write_image(plot, file=imgfile.name, format="png", scale=2)
-                    pdf.ln(2)
-                    pdf.set_font("Arial", "B", 12)
-                    # pdf.cell(0, 6, title, ln=True, align="C")
-                    pdf.image(imgfile.name, w=150)
-                    pdf.ln(2)
+            
+            # Line-to-Output Transfer Function
+            pdf.set_font("Arial", "B", 10)
+            pdf.cell(0, 6, "Line-to-Output Transfer Function:", ln=True)
+            
+            # Convert LaTeX to image and add to PDF
+            try:
+                gvg_img = latex_to_image(row["line_to_op_tf"], fontsize=11)
+                with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_gvg:
+                    tmp_gvg.write(gvg_img.getvalue())
+                    tmp_gvg.flush()
+                    pdf.image(tmp_gvg.name, x=11, w=110)
+                    os.unlink(tmp_gvg.name)
+            except Exception as e:
+                logger.error(f"Error rendering Gvg LaTeX: {e}")
+                pdf.set_font("Arial", "", 8)
+                pdf.multi_cell(0, 5, f"Gvg(s): {str(row['sys_g_obj'])}")
+            
+            pdf.ln(3)
+            
+            # Control-to-Output Transfer Function
+            pdf.set_font("Arial", "B", 10)
+            pdf.cell(0, 6, "Control-to-Output Transfer Function:", ln=True)
+            
+            try:
+                gvd_img = latex_to_image(row["ctrl_to_op_tf"], fontsize=11)
+                with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_gvd:
+                    tmp_gvd.write(gvd_img.getvalue())
+                    tmp_gvd.flush()
+                    pdf.image(tmp_gvd.name, x=11, w=110)
+                    os.unlink(tmp_gvd.name)
+            except Exception as e:
+                logger.error(f"Error rendering Gvd LaTeX: {e}")
+                pdf.set_font("Arial", "", 8)
+                pdf.multi_cell(0, 5, f"Gvd(s): {str(row['sys_d_obj'])}")
+            
+            pdf.ln(25)
+            
+            # Response Plots
+            pdf.set_font("Arial", "B", 11)
+            pdf.cell(0, 8, "Transient Response Plots:", ln=True)
+            pdf.ln(2)
+            
+            # Line-to-Output Response
+            pdf.set_font("Arial", "B", 10)
+            pdf.cell(0, 6, "Line-to-Output Response:", ln=True)
+            with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as imgfile:
+                row["line_to_op_resp"].write_image(imgfile.name, format="png", width=800, height=500, scale=2)
+                pdf.image(imgfile.name, x=10, w=190)
+                os.unlink(imgfile.name)
+            pdf.ln(3)
+            
+            # Control-to-Output Response
+            pdf.set_font("Arial", "B", 10)
+            pdf.cell(0, 6, "Control-to-Output Response:", ln=True)
+            with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as imgfile:
+                row["ctrl_to_op_resp"].write_image(imgfile.name, format="png", width=800, height=500, scale=2)
+                pdf.image(imgfile.name, x=10, w=190)
+                os.unlink(imgfile.name)
+            
+            # Add page break between calculations (except last one)
+            # if idx < len(st.session_state["history_df"]) - 1:
+            #     pdf.add_page()
 
         # Save PDF to a temporary file and offer download
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmpfile:
             pdf.output(tmpfile.name)
-            tmpfile.seek(0)
+            
+            with open(tmpfile.name, "rb") as f:
+                pdf_data = f.read()
+            
             st.download_button(
-                label="Download Calculation History as PDF",
-                data=tmpfile.read(),
-                file_name="calculation_history.pdf",
-                mime="application/pdf"
+                label="📥 Download Calculation History as PDF",
+                data=pdf_data,
+                file_name="dc_dc_converter_analysis_history.pdf",
+                mime="application/pdf",
+                type="primary"
             )
+            
+            os.unlink(tmpfile.name)
+            
         st.success("PDF generated successfully!", icon="✅")
-
-
-def tf_to_latex(tf, var='s', name='H'):
-    """Convert a control.TransferFunction to a LaTeX string."""
-    def poly_to_latex(coeffs):
-        terms = []
-        order = len(coeffs) - 1
-        for i, c in enumerate(coeffs):
-            if abs(c) < 1e-12:
-                continue
-            power = order - i
-            c_str = f"{c:.3g}" if abs(c) != 1 or power == 0 else ("-" if c == -1 else "")
-            if power == 0:
-                terms.append(f"{c_str}")
-            elif power == 1:
-                terms.append(f"{c_str}{var}")
-            else:
-                terms.append(f"{c_str}{var}^{{{power}}}")
-        return " + ".join(terms) if terms else "0"
-    num = tf.num[0][0] if hasattr(tf.num[0], '__iter__') else tf.num
-    den = tf.den[0][0] if hasattr(tf.den[0], '__iter__') else tf.den
-    num_str = poly_to_latex(num)
-    den_str = poly_to_latex(den)
-    return rf"{name}({var}) = \frac{{{num_str}}}{{{den_str}}}"
 
 
 # Setup page
@@ -153,97 +279,90 @@ converter_type: str = str(st.pills(
 
 # Input Voltage
 vin: float = st.number_input(
-    label="Input Voltage (Vin) in Volts",
-    min_value=0.1,
+    label="Input Voltage (V)",
+    min_value=0.0,
     max_value=1000.0,
     value=12.0,
-    step=1.0,
-    help="Enter the input voltage for the converter in Volts."
+    step=0.1,
+    help="Enter the input voltage for the converter."
 )
 
 # Output Voltage
 vo: float = st.number_input(
-    label="Output Voltage (Vo) in Volts",
-    min_value=0.1,
+    label="Output Voltage (V)",
+    min_value=0.0,
     max_value=1000.0,
     value=5.0,
-    step=1.0,
-    help="Enter the desired output voltage for the converter in Volts."
+    step=0.1,
+    help="Enter the desired output voltage."
 )
 
-# Output Resistance
+# Load Resistance
 rload: float = st.number_input(
-    label="Load Resistance (Rload) in Ohms",
-    min_value=0.0,
-    max_value=100000.0,
+    label="Load Resistance (Ω)",
+    min_value=0.1,
+    max_value=10000.0,
     value=10.0,
-    step=1.0,
-    help="Enter the load resistance for the converter in Ohms."
+    step=0.1,
+    help="Enter the load resistance value."
 )
 
-# Operating Frequency
+# Switching Frequency
 fsw: float = st.number_input(
-    label="Switching Frequency (fsw) in Hz",
-    min_value=0.0,
+    label="Switching Frequency (Hz)",
+    min_value=1000.0,
     max_value=1000000.0,
-    value=10000.0,
-    step=100.0,
-    help="Enter the switching frequency for the converter in Hertz."
+    value=100000.0,
+    step=1000.0,
+    help="Enter the switching frequency."
 )
 
-# Percentage Inductor Ripple Current
+# Ripple Current Percentage
 ripl_crnt: float = st.number_input(
-    label="Percentage i/p Inductor Ripple Current (ΔIL) in Amperes",
-    min_value=0.0,
+    label="Ripple Current (%)",
+    min_value=0.1,
     max_value=100.0,
-    value=10.0,
-    step=1.0,
-    help="Enter the desired percentage i/p inductor ripple current for the converter in Amperes. E.g.: 10 for 10%"
+    value=30.0,
+    step=0.1,
+    help="Enter the acceptable ripple current percentage."
 )
 
-# Percentage Output Voltage Ripple
+# Ripple Voltage Percentage
 ripl_vout: float = st.number_input(
-    label="Percentage o/p Voltage Ripple (ΔVo) in Volts",
-    min_value=0.0,
+    label="Output Voltage Ripple (%)",
+    min_value=0.1,
     max_value=100.0,
     value=1.0,
     step=0.1,
-    help="Enter the desired percentage o/p voltage ripple for the converter in Volts. E.g.: 1 for 1%"
+    help="Enter the acceptable output voltage ripple percentage."
 )
 
-# Columns for buttons
-col1, col2 = st.columns(2, gap="small", width=700)
-
+# Buttons
+col1, col2 = st.columns(2)
 with col1:
-    # Calculate button
-    cal_btn = st.button(label="**Calculate Converter Specs & Plot Response**")
+    calc_btn = st.button("Calculate Specs", type="primary", use_container_width=True)
 with col2:
-    # History button
-    hist_btn = st.button(label="**Show Calculation History**")
+    hist_btn = st.button("View History", use_container_width=True)
 
-if cal_btn:
+# Calculate and display results
+if calc_btn:
     try:
-        assert vo < vin if converter_type in ["Buck", "BuckBoost"] else vo > vin, "Output voltage must be less than input voltage for Buck and Buck-Boost converters, and greater for Boost converters."
-        assert rload > 0, "Load resistance must be greater than zero."
-        assert fsw > 0, "Switching frequency must be greater than zero."
-        assert 0 < ripl_crnt < 100, "Percentage i/p inductor ripple current must be between 0 and 100."
-        assert 0 < ripl_vout < 100, "Percentage o/p voltage ripple must be between 0 and 100."
+        # Variable declarations
+        duty_cycle: float
+        ip_crnt: float
+        op_crnt: float
+        ind_crnt: float
+        ip_power: float
+        op_power: float
+        crt_ind: str
+        crt_ind_rpl_crnt: float
+        ind_ripl_crnt: str
+        ind: str
+        maxind_crnt: float
+        minind_crnt: float
+        cap: str
+        esr: float
         
-        # Perform calculations based on converter type
-        # duty_cycle: float
-        # op_crnt: float 
-        # ind_crnt: float
-        # ip_crnt: float
-        # ip_power: float
-        # op_power: float
-        # crt_ind: str
-        # crt_ind_rpl_crnt: float
-        # ind_ripl_crnt: str
-        # ind: str
-        # maxind_crnt: float
-        # minind_crnt: float
-        # cap: str
-        # esr: float
         match converter_type:
             case "Buck":
                 duty_cycle: float = bucklc.bck_duty_cycle(vo, vin)
@@ -293,56 +412,63 @@ if cal_btn:
 
         with st.spinner("Calculating specs and plotting responses, please wait..."):
             # Plot response
-            line_to_op_resp, ctrl_to_op_resp, sys_g, sys_d = tfr.plot_response(duty_cycle, vin, float(ind), float(cap), rload, converter_type)
+            line_to_op_resp, ctrl_to_op_resp, sys_g, sys_d = tfr.plot_response(
+                duty_cycle, vin, float(ind), float(cap), rload, converter_type
+            )
+            
+            # Generate LaTeX equations
             gvg_latex = tf_to_latex(sys_g, name='G_{vg}')
             gvd_latex = tf_to_latex(sys_d, name='G_{vd}')
 
             # Display results
             op_string = f"""
-            #### Converter Parameters
-            \tMode = {converter_type} Converter
-            \tVin = {vin}V
-            \tVo = {vo}V
-            \tR = {rload}Ohms
-            \tfsw = {fsw}Hz
-            \tIrp = {ripl_crnt}%
-            \tVrp = {ripl_vout}%
+#### Input Parameters
+\tMode = {converter_type} Converter
+\tVin = {vin}V
+\tVo = {vo}V
+\tR = {rload}Ohm
+\tfsw = {fsw}Hz
+\tIrp = {ripl_crnt}%
+\tVrp = {ripl_vout}%
 
-            #### Converter Parameters
-            \tDuty Cycle = {duty_cycle}
-            \tPower Input = {ip_power}W
-            \tPower output = {op_power}W
-            \tOutput Current = {op_crnt}A
-            \tInductor Current = {ind_crnt}A
-            \tInput Current = {ip_crnt}A
-            \tCritical Inductance Value(Lcr)= {crt_ind}H
-            \tRipple Current due to Lcr = {crt_ind_rpl_crnt}A
-            \tContinuous Conduction Inductor Value (L) = {ind}H
-            \tRipple Current due to L = {ind_ripl_crnt}A
-            \tMaximum inductor ripple current = {maxind_crnt}A
-            \tMinimum inductor ripple current = {minind_crnt}A
-            \tOutput Capacitor = {cap}F
-            \tCapacitor ESR = {esr}Ohms
+#### Calculated Parameters
+\tDuty Cycle = {duty_cycle}
+\tPower Input = {ip_power}W
+\tPower output = {op_power}W
+\tOutput Current = {op_crnt}A
+\tInductor Current = {ind_crnt}A
+\tInput Current = {ip_crnt}A
+\tCritical Inductance Value (Lcr) = {crt_ind}H
+\tRipple Current due to Lcr = {crt_ind_rpl_crnt}A
+\tContinuous Conduction Inductor Value (L) = {ind}H
+\tRipple Current due to L = {ind_ripl_crnt}A
+\tMaximum inductor ripple current = {maxind_crnt}A
+\tMinimum inductor ripple current = {minind_crnt}A
+\tOutput Capacitor = {cap}F
+\tCapacitor ESR = {esr}Ohm
+"""
 
-            #### Transfer Functions
-
-            $$ {gvg_latex} $$
-
-            $$ {gvd_latex} $$
-            """
-
-            # print('Line-to-Output Transfer Function: ', sys_g['num'], '/', sys_g['den'])
             st.write(op_string)
-            st.plotly_chart(line_to_op_resp)
-            st.plotly_chart(ctrl_to_op_resp)
+            
+            # Display Transfer Functions
+            st.markdown("#### Transfer Functions")
+            col_tf1, col_tf2 = st.columns(2)
+            
+            with col_tf1:
+                st.markdown("**Line-to-Output Transfer Function:**")
+                st.latex(gvg_latex)
+                st.plotly_chart(line_to_op_resp, use_container_width=True)
+                
+            with col_tf2:
+                st.markdown("**Control-to-Output Transfer Function:**")
+                st.latex(gvd_latex)
+                st.plotly_chart(ctrl_to_op_resp, use_container_width=True)
 
-        logger.info(f"Calculated specs for {converter_type} converter with Vin={vin}V, Vo={vo}V, Rload={rload}Ohms, fsw={fsw}Hz, Irp={ripl_crnt}%, Vrp={ripl_vout}%")
+        logger.info(f"Calculated specs for {converter_type} converter with Vin={vin}V, Vo={vo}V")
 
-        # pio.kaleido.write_image(line_to_op_resp, file="line_to_op_resp.png", format="png")
-        # pio.kaleido.write_image(ctrl_to_op_resp, file="ctrl_to_op_resp.png", format="png")
-
-        # Save to history
-        save_to_history(op_string, line_to_op_resp, ctrl_to_op_resp)
+        # Save to history - now includes sys_g and sys_d objects
+        save_to_history(op_string, gvg_latex, gvd_latex, line_to_op_resp, ctrl_to_op_resp, sys_g, sys_d)
+        
     except AssertionError as ae:
         st.error(f"Input Error: {ae}")
         logger.error(f"Input Error: {ae}")
@@ -351,32 +477,49 @@ if cal_btn:
         logger.error(f"Calculation Error: {e}")
 
 
+# History Display
 if hist_btn:
     st.markdown("## Calculation History")
     if st.session_state["history_df"].empty:
         st.markdown("No calculations performed yet.")
     else:
-        # for index, row in st.session_state["history_df"].iterrows():
-        #     st.markdown(f"### Calculation {index + 1}")
-        #     st.markdown(row["Specs"])
-        #     st.plotly_chart(row["line_to_op_resp"])
-        #     st.plotly_chart(row["ctrl_to_op_resp"])
-
         try:
             for index, row in st.session_state["history_df"].iterrows():
-                col_specs, col_line, col_ctrl = st.columns(3, vertical_alignment="center", border=True)
-                with col_specs:
-                    st.markdown(f"### Calculation {index + 1}")
+                with st.expander(f"📊 Calculation #{index + 1}", expanded=False):
+                    # Specs
+                    st.markdown("### Specifications")
                     st.markdown(row["Specs"])
-                with col_line:
-                        st.plotly_chart(row["line_to_op_resp"])
-                with col_ctrl:
-                        st.plotly_chart(row["ctrl_to_op_resp"])
+                    
+                    # Transfer Functions
+                    st.markdown("### Transfer Functions")
+                    col_tf1, col_tf2 = st.columns(2)
+                    
+                    with col_tf1:
+                        st.markdown("**Line-to-Output:**")
+                        st.latex(row["line_to_op_tf"])
+                        
+                    with col_tf2:
+                        st.markdown("**Control-to-Output:**")
+                        st.latex(row["ctrl_to_op_tf"])
+                    
+                    # Response Plots
+                    st.markdown("### Response Plots")
+                    col_plot1, col_plot2 = st.columns(2)
+                    
+                    with col_plot1:
+                        st.plotly_chart(row["line_to_op_resp"], use_container_width=True)
+                        
+                    with col_plot2:
+                        st.plotly_chart(row["ctrl_to_op_resp"], use_container_width=True)
+                        
         except Exception as e:
             st.error(f"An error occurred while displaying history: {e}")
             logger.error(f"History Display Error: {e}")
             
+        # PDF Export Button
+        st.markdown("---")
         download_history_as_pdf_with_plots()
+
 
 def get_image_base64(image_path):
     """Read image file."""
@@ -384,56 +527,61 @@ def get_image_base64(image_path):
         return base64.b64encode(img_file.read()).decode("utf-8")
 
 
-# st.markdown("""---""")
+# Footer
+st.markdown("""---""")
 
 # Get the base64 string of the image
-img_base64 = get_image_base64("assets/pranay-jolly-sq.jpg")
-
-# Create the HTML for the circular image
-st.markdown(
-    """
-    ------
+try:
+    img_base64 = get_image_base64("assets/pranay-jolly-sq.jpg")
+    
+    # Create the HTML for the circular image
+    st.markdown(
+        """
+        <style>
+            a.author {
+                text-decoration: none;
+                color: #F14848;
+            }
+            a.author:hover {
+                text-decoration: none;
+                color: #14a3ee;
+            }
+        </style>
+        <p><em>Created with</em> ❤️‍🔥 <em>by <a class='author' href='https://pranayjagtap.netlify.app' rel=noopener noreferrer' target='_blank'><b>Pranay Jagtap</b></a></em></p>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    html_code = """
     <style>
-        a.author {
-            text-decoration: none;
-            color: #F14848;
+        .circular-image {
+            width: 125px;
+            height: 125px;
+            border-radius: 55%;
+            overflow: hidden;
+            display: inline-block;
         }
-        a.author:hover {
-            text-decoration: none;
-            color: #14a3ee;
+        .circular-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .author-headline {
+            color: #14a3ee
         }
     </style>
-    <p><em>Created with</em> ❤️‍🔥 <em>by <a class='author' href='https://pranayjagtap.netlify.app' rel=noopener noreferrer' target='_blank'><b>Pranay Jagtap</b></a></em></p>
-    """,
-    unsafe_allow_html=True
-)
-html_code = """
-<style>
-    .circular-image {
-        width: 125px;
-        height: 125px;
-        border-radius: 55%;
-        overflow: hidden;
-        display: inline-block;
-    }
-    .circular-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .author-headline {
-        color: #14a3ee
-    }
-</style>
-""" + f"""
-<div class="circular-image">
-    <a href="https://pranayjagtap.netlify.app" target="_blank" rel="noopener noreferrer">
-        <img src="data:image/jpeg;base64,{img_base64}" alt="Pranay Jagtap">
-    </a>
-</div>
-<p class=author-headline><b>Machine Learning Enthusiast | Electrical Engineer<br>📍Nagpur, Maharashtra, India<b></p>
-"""
+    """ + f"""
+    <div class="circular-image">
+        <a href="https://pranayjagtap.netlify.app" target="_blank" rel="noopener noreferrer">
+            <img src="data:image/jpeg;base64,{img_base64}" alt="Pranay Jagtap">
+        </a>
+    </div>
+    <p class=author-headline><b>Machine Learning Enthusiast | Electrical Engineer<br>📍Nagpur, Maharashtra, India<b></p>
+    """
+    
+    # Display the circular image
+    st.markdown(html_code, unsafe_allow_html=True)
+except Exception as e:
+    logger.warning(f"Could not load author image: {e}")
 
-# Display the circular image
-st.markdown(html_code, unsafe_allow_html=True)
 # End of the Streamlit app code
