@@ -4,7 +4,7 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.io as pio
 from matplotlib import pyplot as plt
-pio.renderers.default = "vscode"
+pio.renderers.default = "browser"
 
 s = ct.TransferFunction.s
 
