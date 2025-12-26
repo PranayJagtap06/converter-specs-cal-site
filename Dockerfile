@@ -17,4 +17,4 @@ RUN pip install --upgrade --no-cache-dir -r requirements.txt && \
 
 EXPOSE 7860
 
-CMD ["/bin/bash", "-c", "streamlit run main.py --server.port 7860 --server.address 0.0.0.0"]
+CMD ["/bin/bash", "-c", "streamlit run main.py --server.port 7860 --server.address 0.0.0.0 --server.enableCORS true --server.enableXsrfProtection true"]

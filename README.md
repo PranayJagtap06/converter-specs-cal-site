@@ -6,3 +6,8 @@ This a DC-DC converter specification calculator streamlit app which:
  - Also plots the `Line-to-Output (Gvg)` as well as `Control-to-Output (Gvd)` transient responses. 
  - Provided with inputs like input & output voltages, load resistance, operating frequency, inductor ripple current precentage, & output voltage ripple percentage. 
  - And calculation history is available to download!
+
+> [Streamlit App available here](https://huggingface.co/spaces/pranayj97/converter-specs-cal-app)
+
+> [!Warning]
+> Downloading calculation history currently not working on Huggingface deployed streamlit app. Working on migrating it to Gradio or FastAPI
