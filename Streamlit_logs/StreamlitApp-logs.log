@@ -4332,3 +4332,179 @@ https://community.plot.ly/c/api/python
 [2025-12-25 16:55:51,088 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
 [2025-12-25 16:55:51,090 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
 [2025-12-25 16:55:51,092 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 21:49:23,382 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V
+[2026-03-20 21:49:45,412 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V
+[2026-03-20 21:50:08,785 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2026-03-20 21:50:08,796 StreamlitApp] ERROR: main : Plotly image error: 
+
+Kaleido requires Google Chrome to be installed.
+
+Either download and install Chrome yourself following Google's instructions for your operating system,
+or install it from your terminal by running:
+
+    $ plotly_get_chrome
+
+
+[2026-03-20 21:50:08,803 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2026-03-20 21:50:08,815 StreamlitApp] ERROR: main : Plotly image error: 
+
+Kaleido requires Google Chrome to be installed.
+
+Either download and install Chrome yourself following Google's instructions for your operating system,
+or install it from your terminal by running:
+
+    $ plotly_get_chrome
+
+
+[2026-03-20 21:50:09,219 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2026-03-20 21:50:09,224 StreamlitApp] ERROR: main : Plotly image error: 
+
+Kaleido requires Google Chrome to be installed.
+
+Either download and install Chrome yourself following Google's instructions for your operating system,
+or install it from your terminal by running:
+
+    $ plotly_get_chrome
+
+
+[2026-03-20 21:50:09,236 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2026-03-20 21:50:09,244 StreamlitApp] ERROR: main : Plotly image error: 
+
+Kaleido requires Google Chrome to be installed.
+
+Either download and install Chrome yourself following Google's instructions for your operating system,
+or install it from your terminal by running:
+
+    $ plotly_get_chrome
+
+
+[2026-03-20 23:03:05,216 StreamlitApp] INFO: main : Calculated specs for Buck converter with Vin=12.0V, Vo=5.0V
+[2026-03-20 23:03:24,341 StreamlitApp] INFO: main : Calculated specs for BuckBoost converter with Vin=12.0V, Vo=5.0V
+[2026-03-20 23:03:30,982 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2026-03-20 23:03:30,986 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/pranayxdevml/pydevml/lib/python3.12/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2026-03-20 23:03:30,988 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp0z3vq19y.
+[2026-03-20 23:03:30,989 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2026-03-20 23:03:30,991 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpon_2p3z4.
+[2026-03-20 23:03:31,012 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpon_2p3z4
+[2026-03-20 23:03:31,515 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp0z3vq19y/index.html
+[2026-03-20 23:03:31,516 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2026-03-20 23:03:33,915 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2026-03-20 23:03:33,918 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2026-03-20 23:03:33,918 kaleido.kaleido] INFO: kaleido : Got 762A
+[2026-03-20 23:03:33,918 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2026-03-20 23:03:33,919 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2026-03-20 23:03:34,136 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2026-03-20 23:03:34,138 kaleido.kaleido] INFO: kaleido : Reloading tab 762A before return.
+[2026-03-20 23:03:34,360 kaleido.kaleido] INFO: kaleido : Putting tab 762A back (queue size: 0).
+[2026-03-20 23:03:34,361 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2026-03-20 23:03:34,362 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2026-03-20 23:03:34,363 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2026-03-20 23:03:34,371 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2026-03-20 23:03:34,371 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:34,374 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:34,374 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2026-03-20 23:03:34,377 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2026-03-20 23:03:34,496 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:34,497 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:34,497 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:34,498 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:34,498 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2026-03-20 23:03:34,498 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2026-03-20 23:03:36,778 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2026-03-20 23:03:36,779 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/pranayxdevml/pydevml/lib/python3.12/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2026-03-20 23:03:36,779 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpnv9nllym.
+[2026-03-20 23:03:36,780 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2026-03-20 23:03:36,781 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpd74y2s_a.
+[2026-03-20 23:03:36,799 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmpd74y2s_a
+[2026-03-20 23:03:37,333 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpnv9nllym/index.html
+[2026-03-20 23:03:37,335 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2026-03-20 23:03:39,659 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2026-03-20 23:03:39,661 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2026-03-20 23:03:39,661 kaleido.kaleido] INFO: kaleido : Got 5E52
+[2026-03-20 23:03:39,661 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png
+[2026-03-20 23:03:39,661 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2026-03-20 23:03:39,877 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_Buck_Vin_120_D_0417.png.
+[2026-03-20 23:03:39,880 kaleido.kaleido] INFO: kaleido : Reloading tab 5E52 before return.
+[2026-03-20 23:03:40,088 kaleido.kaleido] INFO: kaleido : Putting tab 5E52 back (queue size: 0).
+[2026-03-20 23:03:40,089 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2026-03-20 23:03:40,092 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2026-03-20 23:03:40,092 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2026-03-20 23:03:40,097 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2026-03-20 23:03:40,098 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:40,099 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:40,101 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2026-03-20 23:03:40,101 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2026-03-20 23:03:40,218 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:40,218 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:40,218 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:40,219 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:40,219 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2026-03-20 23:03:40,220 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2026-03-20 23:03:42,501 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:42,501 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:42,523 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:42,524 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:42,855 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2026-03-20 23:03:42,856 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/pranayxdevml/pydevml/lib/python3.12/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2026-03-20 23:03:42,856 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmpij1zlj83.
+[2026-03-20 23:03:42,857 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2026-03-20 23:03:42,858 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp15len_i5.
+[2026-03-20 23:03:42,876 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp15len_i5
+[2026-03-20 23:03:43,362 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmpij1zlj83/index.html
+[2026-03-20 23:03:43,363 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2026-03-20 23:03:45,669 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2026-03-20 23:03:45,671 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2026-03-20 23:03:45,671 kaleido.kaleido] INFO: kaleido : Got C6DC
+[2026-03-20 23:03:45,671 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2026-03-20 23:03:45,671 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2026-03-20 23:03:45,878 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Line_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2026-03-20 23:03:45,880 kaleido.kaleido] INFO: kaleido : Reloading tab C6DC before return.
+[2026-03-20 23:03:46,079 kaleido.kaleido] INFO: kaleido : Putting tab C6DC back (queue size: 0).
+[2026-03-20 23:03:46,079 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2026-03-20 23:03:46,080 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2026-03-20 23:03:46,081 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2026-03-20 23:03:46,088 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2026-03-20 23:03:46,091 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:46,092 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:46,095 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2026-03-20 23:03:46,096 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2026-03-20 23:03:46,210 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:46,211 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:46,211 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:46,212 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:46,212 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2026-03-20 23:03:46,212 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2026-03-20 23:03:48,497 choreographer.browsers.chromium] INFO: chromium : Chromium init'ed with kwargs {}
+[2026-03-20 23:03:48,497 choreographer.browsers.chromium] INFO: chromium : Found chromium path: /home/pranayxdevml/pydevml/lib/python3.12/site-packages/choreographer/cli/browser_exe/chrome-linux64/chrome
+[2026-03-20 23:03:48,498 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp7yrc12d_.
+[2026-03-20 23:03:48,498 choreographer.browser_async] INFO: browser_async : Opening browser.
+[2026-03-20 23:03:48,499 choreographer.utils._tmpfile] INFO: _tmpfile : Temp directory created: /tmp/tmp7vv717fj.
+[2026-03-20 23:03:48,515 choreographer.browsers.chromium] INFO: chromium : Temporary directory at: /tmp/tmp7vv717fj
+[2026-03-20 23:03:48,984 kaleido.kaleido] INFO: kaleido : Conforming 1 to file:///tmp/tmp7yrc12d_/index.html
+[2026-03-20 23:03:48,984 kaleido.kaleido] INFO: kaleido : Waiting on all navigates
+[2026-03-20 23:03:51,280 kaleido.kaleido] INFO: kaleido : All navigates done, putting them all in queue.
+[2026-03-20 23:03:51,282 kaleido.kaleido] INFO: kaleido : Getting tab from queue (has 1)
+[2026-03-20 23:03:51,283 kaleido.kaleido] INFO: kaleido : Got D10A
+[2026-03-20 23:03:51,284 kaleido._kaleido_tab] INFO: _kaleido_tab : Processing Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png
+[2026-03-20 23:03:51,284 kaleido._kaleido_tab] INFO: _kaleido_tab : Sending big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2026-03-20 23:03:51,493 kaleido._kaleido_tab] INFO: _kaleido_tab : Sent big command for Control_to_Output_Transient_Response_Mode_BuckBoost_Vin_120_D_0294.png.
+[2026-03-20 23:03:51,495 kaleido.kaleido] INFO: kaleido : Reloading tab D10A before return.
+[2026-03-20 23:03:51,694 kaleido.kaleido] INFO: kaleido : Putting tab D10A back (queue size: 0).
+[2026-03-20 23:03:51,695 kaleido.kaleido] INFO: kaleido : Waiting for all cleanups to finish.
+[2026-03-20 23:03:51,695 kaleido.kaleido] INFO: kaleido : Exiting Kaleido
+[2026-03-20 23:03:51,695 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2026-03-20 23:03:51,698 choreographer.browser_async] INFO: browser_async : Closing browser.
+[2026-03-20 23:03:51,699 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:51,699 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:51,699 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2026-03-20 23:03:51,699 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2026-03-20 23:03:51,819 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:51,820 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:51,820 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:51,820 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:51,821 kaleido.kaleido] INFO: kaleido : Cancelling tasks.
+[2026-03-20 23:03:51,821 kaleido.kaleido] INFO: kaleido : Exiting Kaleido/Choreo
+[2026-03-20 23:03:54,274 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:54,275 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.
+[2026-03-20 23:03:54,276 choreographer.utils._tmpfile] INFO: _tmpfile : TemporaryDirectory.cleanup() worked.
+[2026-03-20 23:03:54,277 choreographer.utils._tmpfile] INFO: _tmpfile : shutil.rmtree worked.

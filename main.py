@@ -42,6 +42,12 @@ if "history_df" not in st.session_state:
         "sys_g_obj", "sys_d_obj"  # Store actual transfer function objects
     ])
 
+if "show_history" not in st.session_state:
+    st.session_state["show_history"] = False
+
+if "pdf_data" not in st.session_state:
+    st.session_state["pdf_data"] = None
+
 
 def save_to_history(specs: str, gvg_latex: str, gvd_latex: str, line_plot, ctrl_plot, sys_g, sys_d) -> None:
     """Save calculation results to history including transfer function objects"""
@@ -57,6 +63,8 @@ def save_to_history(specs: str, gvg_latex: str, gvd_latex: str, line_plot, ctrl_
             "sys_d_obj": [sys_d]   # Store the actual system object
         })
     ], ignore_index=True)
+    
+    st.session_state["pdf_data"] = None
 
 
 def latex_to_image(latex_string, fontsize=12, dpi=300):
@@ -95,11 +103,15 @@ def tf_to_latex(sys, var='s', name='H'):
             power = len(coeffs) - i - 1
             
             # Format coefficient
-            coef_str = f"{abs(coef):.4g}"
+            coef_val = abs(coef)
+            if coef_val == 1 and power > 0:
+                coef_str = ""
+            else:
+                coef_str = f"{coef_val:.4g}"
             
             # Format power
             if power == 0:
-                term = coef_str
+                term = f"{coef_val:.4g}"
             elif power == 1:
                 term = f"{coef_str}{var}"
             else:
@@ -128,122 +140,138 @@ def tf_to_latex(sys, var='s', name='H'):
 def download_history_as_pdf_with_plots():
     """Generate PDF with all calculation history including transfer functions"""
     if st.session_state["history_df"].empty:
-        st.warning("No calculation history to download.")
+        st.info("No calculation history to download.")
         return
 
-    with st.spinner("Generating PDF, please wait..."):
-        pdf = FPDF()
-        pdf.set_auto_page_break(auto=True, margin=15)
-
-        for idx, row in st.session_state["history_df"].iterrows():
-            pdf.add_page()
-            
-            # Title
-            pdf.set_font("Arial", "B", 16)
-            pdf.cell(0, 10, "DC-DC Converter Analysis Report", ln=True, align="R")
-            pdf.ln(2)
-            
-            pdf.set_font("Arial", "B", 12)
-            pdf.cell(0, 8, f"Calculation #{idx + 1}", ln=True, align="C")
-            pdf.ln(5)
-            
-            # Specs section
-            pdf.set_font("Arial", "B", 11)
-            pdf.cell(0, 8, "Converter Specifications:", ln=True)
-            pdf.set_font("Arial", "", 9)
-            
-            # Add specs text, line by line
-            for line in row["Specs"].splitlines():
-                if line.strip():  # Skip empty lines
-                    pdf.multi_cell(0, 6.5, line.strip())
-            pdf.ln(20)
-            
-            # Transfer Functions Section
-            pdf.set_font("Arial", "B", 11)
-            pdf.cell(0, 8, "Transfer Functions:", ln=True)
-            pdf.ln(2)
-            
-            # Line-to-Output Transfer Function
-            pdf.set_font("Arial", "B", 10)
-            pdf.cell(0, 6, "Line-to-Output Transfer Function:", ln=True)
-            
-            # Convert LaTeX to image and add to PDF
+    if st.button("Generate PDF Report", icon="📄"):
+        with st.spinner("Generating PDF, please wait..."):
             try:
-                gvg_img = latex_to_image(row["line_to_op_tf"], fontsize=11)
-                with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_gvg:
-                    tmp_gvg.write(gvg_img.getvalue())
-                    tmp_gvg.flush()
-                    pdf.image(tmp_gvg.name, x=11, w=110)
-                    os.unlink(tmp_gvg.name)
+                pdf = FPDF()
+                pdf.set_auto_page_break(auto=True, margin=15)
+        
+                for idx, row in st.session_state["history_df"].iterrows():
+                    pdf.add_page()
+            
+                    # Title
+                    pdf.set_font("Arial", "B", 16)
+                    pdf.cell(0, 10, "DC-DC Converter Analysis Report", ln=True, align="R")
+                    pdf.ln(2)
+                    
+                    pdf.set_font("Arial", "B", 12)
+                    pdf.cell(0, 8, f"Calculation #{idx + 1}", ln=True, align="C")
+                    pdf.ln(5)
+                    
+                    # Specs section
+                    pdf.set_font("Arial", "B", 11)
+                    pdf.cell(0, 8, "Converter Specifications:", ln=True)
+                    pdf.set_font("Arial", "", 9)
+                    
+                    # Add specs text, line by line
+                    for line in row["Specs"].splitlines():
+                        if line.strip():  # Skip empty lines
+                            clean_line = line.strip().encode('latin-1', 'replace').decode('latin-1')
+                            pdf.multi_cell(0, 6.5, clean_line)
+                    pdf.ln(20)
+                    
+                    # Transfer Functions Section
+                    pdf.set_font("Arial", "B", 11)
+                    pdf.cell(0, 8, "Transfer Functions:", ln=True)
+                    pdf.ln(2)
+                    
+                    # Line-to-Output Transfer Function
+                    pdf.set_font("Arial", "B", 10)
+                    pdf.cell(0, 6, "Line-to-Output Transfer Function:", ln=True)
+                    
+                    # Convert LaTeX to image and add to PDF
+                    try:
+                        gvg_img = latex_to_image(row["line_to_op_tf"], fontsize=11)
+                        fd, tmp_gvg = tempfile.mkstemp(suffix=".png")
+                        os.close(fd)
+                        with open(tmp_gvg, "wb") as f:
+                            f.write(gvg_img.getvalue())
+                        pdf.image(tmp_gvg, x=11, w=110)
+                        os.unlink(tmp_gvg)
+                    except Exception as e:
+                        logger.error(f"Error rendering Gvg LaTeX: {e}")
+                        pdf.set_font("Arial", "", 8)
+                        pdf.multi_cell(0, 5, f"Gvg(s): {str(row['sys_g_obj'])}")
+                    
+                    pdf.ln(3)
+                    
+                    # Control-to-Output Transfer Function
+                    pdf.set_font("Arial", "B", 10)
+                    pdf.cell(0, 6, "Control-to-Output Transfer Function:", ln=True)
+                    
+                    try:
+                        gvd_img = latex_to_image(row["ctrl_to_op_tf"], fontsize=11)
+                        fd, tmp_gvd = tempfile.mkstemp(suffix=".png")
+                        os.close(fd)
+                        with open(tmp_gvd, "wb") as f:
+                            f.write(gvd_img.getvalue())
+                        pdf.image(tmp_gvd, x=11, w=110)
+                        os.unlink(tmp_gvd)
+                    except Exception as e:
+                        logger.error(f"Error rendering Gvd LaTeX: {e}")
+                        pdf.set_font("Arial", "", 8)
+                        pdf.multi_cell(0, 5, f"Gvd(s): {str(row['sys_d_obj'])}")
+                    
+                    pdf.ln(25)
+                    
+                    # Response Plots
+                    pdf.set_font("Arial", "B", 11)
+                    pdf.cell(0, 8, "Transient Response Plots:", ln=True)
+                    pdf.ln(2)
+                    
+                    # Line-to-Output Response
+                    pdf.set_font("Arial", "B", 10)
+                    pdf.cell(0, 6, "Line-to-Output Response:", ln=True)
+                    try:
+                        fd, tmp_img_path = tempfile.mkstemp(suffix=".png")
+                        os.close(fd)
+                        row["line_to_op_resp"].write_image(tmp_img_path, format="png", width=800, height=500, scale=2)
+                        pdf.image(tmp_img_path, x=10, w=190)
+                        os.unlink(tmp_img_path)
+                    except Exception as e:
+                        logger.error(f"Plotly image error: {e}")
+                        pdf.set_font("Arial", "", 8)
+                        pdf.multi_cell(0, 5, "[Plot image generation failed or not supported in this environment]")
+                    pdf.ln(3)
+                    
+                    # Control-to-Output Response
+                    pdf.set_font("Arial", "B", 10)
+                    pdf.cell(0, 6, "Control-to-Output Response:", ln=True)
+                    try:
+                        fd, tmp_img_path = tempfile.mkstemp(suffix=".png")
+                        os.close(fd)
+                        row["ctrl_to_op_resp"].write_image(tmp_img_path, format="png", width=800, height=500, scale=2)
+                        pdf.image(tmp_img_path, x=10, w=190)
+                        os.unlink(tmp_img_path)
+                    except Exception as e:
+                        logger.error(f"Plotly image error: {e}")
+                        pdf.set_font("Arial", "", 8)
+                        pdf.multi_cell(0, 5, "[Plot image generation failed or not supported in this environment]")
+                
+                fd, tmpfile_path = tempfile.mkstemp(suffix=".pdf")
+                os.close(fd)
+                pdf.output(tmpfile_path)
+                
+                with open(tmpfile_path, "rb") as f:
+                    st.session_state["pdf_data"] = f.read()
+                
+                os.unlink(tmpfile_path)
+                
             except Exception as e:
-                logger.error(f"Error rendering Gvg LaTeX: {e}")
-                pdf.set_font("Arial", "", 8)
-                pdf.multi_cell(0, 5, f"Gvg(s): {str(row['sys_g_obj'])}")
-            
-            pdf.ln(3)
-            
-            # Control-to-Output Transfer Function
-            pdf.set_font("Arial", "B", 10)
-            pdf.cell(0, 6, "Control-to-Output Transfer Function:", ln=True)
-            
-            try:
-                gvd_img = latex_to_image(row["ctrl_to_op_tf"], fontsize=11)
-                with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_gvd:
-                    tmp_gvd.write(gvd_img.getvalue())
-                    tmp_gvd.flush()
-                    pdf.image(tmp_gvd.name, x=11, w=110)
-                    os.unlink(tmp_gvd.name)
-            except Exception as e:
-                logger.error(f"Error rendering Gvd LaTeX: {e}")
-                pdf.set_font("Arial", "", 8)
-                pdf.multi_cell(0, 5, f"Gvd(s): {str(row['sys_d_obj'])}")
-            
-            pdf.ln(25)
-            
-            # Response Plots
-            pdf.set_font("Arial", "B", 11)
-            pdf.cell(0, 8, "Transient Response Plots:", ln=True)
-            pdf.ln(2)
-            
-            # Line-to-Output Response
-            pdf.set_font("Arial", "B", 10)
-            pdf.cell(0, 6, "Line-to-Output Response:", ln=True)
-            with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as imgfile:
-                row["line_to_op_resp"].write_image(imgfile.name, format="png", width=800, height=500, scale=2)
-                pdf.image(imgfile.name, x=10, w=190)
-                os.unlink(imgfile.name)
-            pdf.ln(3)
-            
-            # Control-to-Output Response
-            pdf.set_font("Arial", "B", 10)
-            pdf.cell(0, 6, "Control-to-Output Response:", ln=True)
-            with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as imgfile:
-                row["ctrl_to_op_resp"].write_image(imgfile.name, format="png", width=800, height=500, scale=2)
-                pdf.image(imgfile.name, x=10, w=190)
-                os.unlink(imgfile.name)
-            
-            # Add page break between calculations (except last one)
-            # if idx < len(st.session_state["history_df"]) - 1:
-            #     pdf.add_page()
+                st.error(f"Failed to generate PDF: {e}")
+                logger.error(f"PDF generation failed: {e}")
 
-        # Save PDF to a temporary file and offer download
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmpfile:
-            pdf.output(tmpfile.name)
-            
-            with open(tmpfile.name, "rb") as f:
-                pdf_data = f.read()
-            
-            st.download_button(
-                label="📥 Download Calculation History as PDF",
-                data=pdf_data,
-                file_name="dc_dc_converter_analysis_history.pdf",
-                mime="application/pdf",
-                type="primary"
-            )
-            
-            os.unlink(tmpfile.name)
-            
-        st.success("PDF generated successfully!", icon="✅")
+    if st.session_state.get("pdf_data") is not None:
+        st.download_button(
+            label="📥 Download Calculation History as PDF",
+            data=st.session_state["pdf_data"],
+            file_name="dc_dc_converter_analysis_history.pdf",
+            mime="application/pdf",
+            type="primary"
+        )
 
 
 # Setup page
@@ -342,10 +370,14 @@ col1, col2 = st.columns(2)
 with col1:
     calc_btn = st.button("Calculate Specs", type="primary", use_container_width=True)
 with col2:
-    hist_btn = st.button("View History", use_container_width=True)
+    hist_btn = st.button("Toggle History", use_container_width=True)
+
+if hist_btn:
+    st.session_state["show_history"] = not st.session_state["show_history"]
 
 # Calculate and display results
 if calc_btn:
+    st.session_state["show_history"] = False
     try:
         # Variable declarations
         duty_cycle: float
@@ -423,29 +455,29 @@ if calc_btn:
             # Display results
             op_string = f"""
 #### Input Parameters
-\tMode = {converter_type} Converter
-\tVin = {vin}V
-\tVo = {vo}V
-\tR = {rload}Ohm
-\tfsw = {fsw}Hz
-\tIrp = {ripl_crnt}%
-\tVrp = {ripl_vout}%
+- Mode = {converter_type} Converter
+- Vin = {vin}V
+- Vo = {vo}V
+- R = {rload}Ohm
+- fsw = {fsw}Hz
+- Irp = {ripl_crnt}%
+- Vrp = {ripl_vout}%
 
 #### Calculated Parameters
-\tDuty Cycle = {duty_cycle}
-\tPower Input = {ip_power}W
-\tPower output = {op_power}W
-\tOutput Current = {op_crnt}A
-\tInductor Current = {ind_crnt}A
-\tInput Current = {ip_crnt}A
-\tCritical Inductance Value (Lcr) = {crt_ind}H
-\tRipple Current due to Lcr = {crt_ind_rpl_crnt}A
-\tContinuous Conduction Inductor Value (L) = {ind}H
-\tRipple Current due to L = {ind_ripl_crnt}A
-\tMaximum inductor ripple current = {maxind_crnt}A
-\tMinimum inductor ripple current = {minind_crnt}A
-\tOutput Capacitor = {cap}F
-\tCapacitor ESR = {esr}Ohm
+- Duty Cycle = {duty_cycle}
+- Power Input = {ip_power}W
+- Power output = {op_power}W
+- Output Current = {op_crnt}A
+- Inductor Current = {ind_crnt}A
+- Input Current = {ip_crnt}A
+- Critical Inductance Value (Lcr) = {crt_ind}H
+- Ripple Current due to Lcr = {crt_ind_rpl_crnt}A
+- Continuous Conduction Inductor Value (L) = {ind}H
+- Ripple Current due to L = {ind_ripl_crnt}A
+- Maximum inductor ripple current = {maxind_crnt}A
+- Minimum inductor ripple current = {minind_crnt}A
+- Output Capacitor = {cap}F
+- Capacitor ESR = {esr}Ohm
 """
 
             st.write(op_string)
@@ -478,10 +510,10 @@ if calc_btn:
 
 
 # History Display
-if hist_btn:
+if st.session_state["show_history"]:
     st.markdown("## Calculation History")
     if st.session_state["history_df"].empty:
-        st.markdown("No calculations performed yet.")
+        st.info("No calculations performed yet.")
     else:
         try:
             for index, row in st.session_state["history_df"].iterrows():

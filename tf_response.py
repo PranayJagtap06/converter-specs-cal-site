@@ -100,7 +100,7 @@ def plot_response(d: float, vin: float, inductor: float, capacitor: float, resis
         ay=-40
     )
 
-    return fig1, fig2, sys_g, sys_d
+    return fig1, fig2, sys_g, sys_d, tg, yg, td, yd
 
 def buck_response_vg(d: float, vin: float, inductor: float, capacitor: float, resistor: float) -> tuple:
     """
@@ -173,7 +173,8 @@ def buck_response_vd(d: float, vin: float, inductor: float, capacitor: float, re
     :return: list of time vector and response of the system
     """
 
-    num_vd = np.array([(vin)/(d*inductor*capacitor)])
+    # num_vd = np.array([(vin)/(d*inductor*capacitor)])
+    num_vd = np.array([vin / (inductor * capacitor)])
     den_vd = np.array([1, 1/(resistor*capacitor), 1/(inductor*capacitor)])
     sys_d = ct.tf(num_vd, den_vd)
     # print('H(s) = ', sys)
@@ -192,7 +193,8 @@ def boost_response_vd(d: float, vin: float, inductor: float, capacitor: float, r
     :return: list of time vector and response of the system
     """
 
-    num_vd = np.array([-vin/((1-d)*resistor*capacitor), vin/(inductor*capacitor)])
+    # num_vd = np.array([-vin/((1-d)*resistor*capacitor), vin/(inductor*capacitor)])
+    num_vd = np.array([-vin / (resistor * capacitor * (1 - d)**2), vin / (inductor * capacitor)])
     den_vd = np.array([1, 1/(resistor*capacitor), ((1-d)**2)/(inductor*capacitor)])
     sys_d = ct.tf(num_vd, den_vd)
     # print('H(s) = ', sys)
@@ -211,7 +213,8 @@ def buck_boost_response_vd(d: float, vin: float, inductor: float, capacitor: flo
     :return: list of time vector and response of the system
     """
 
-    num_vd = np.array([vin/((1-d)*resistor*capacitor), -(vin*(1-d))/(d*inductor*capacitor)])
+    # num_vd = np.array([vin/((1-d)*resistor*capacitor), -(vin*(1-d))/(d*inductor*capacitor)])
+    num_vd = np.array([(vin * d) / (resistor * capacitor * (1 - d)**2), -vin / (inductor * capacitor)])
     den_vd = np.array([1, 1/(resistor*capacitor), ((1-d)**2)/(inductor*capacitor)])
     sys_d = ct.tf(num_vd, den_vd)
     # print('H(s) = ', sys)
