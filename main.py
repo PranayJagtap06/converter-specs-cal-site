@@ -41,7 +41,7 @@ IDEL_STRING = """
 - Mode = converter_type Converter
 - Vin = input_voltage V
 - Vo = output_voltage V
-- R = output_resistance Ohm
+- R = output_resistance ohm
 - fsw = frequency Hz
 - Irp = ripl_current %
 - Vrp = ripl_voltage %
@@ -60,7 +60,7 @@ IDEL_STRING = """
 - Maximum inductor ripple current = maxind_crnt A
 - Minimum inductor ripple current = minind_crnt A
 - Output Capacitor = cap F
-- Capacitor ESR = esr Ohm
+- Capacitor ESR = esr ohm
 
 ### Transfer Functions
 $$ line-to-output\ transfer\ function $$
@@ -261,7 +261,19 @@ def generate_history_pdf(specs_hist: list):
                 # Hybrid approach: Use Matplotlib strictly for PDF export
                 fig, ax = plt.subplots(figsize=(8, 4))
                 ax.plot(row["tg"], row["yg"], color='#1f77b4', label='Transient Response')
-                ax.axhline(y=row["yg"][-1], color='#ff7f0e', linestyle='--', label='Steady State Value')
+                ss_yg = row["yg"][-1]
+                ax.axhline(y=ss_yg, color='#ff7f0e', linestyle='--', label='Steady State Value')
+                
+                y_range_g = np.max(row["yg"]) - np.min(row["yg"]) if np.max(row["yg"]) != np.min(row["yg"]) else 1.0
+                y_offset_g = y_range_g * 0.15 if ss_yg < np.max(row["yg"]) - y_range_g * 0.2 else -y_range_g * 0.15
+                va_g = 'bottom' if y_offset_g > 0 else 'top'
+                
+                ax.annotate(f'Steady State: {ss_yg:.3f} V', 
+                            xy=(row["tg"][-1] * 0.8, ss_yg), 
+                            xytext=(row["tg"][-1] * 0.8, ss_yg + y_offset_g),
+                            arrowprops=dict(facecolor='black', shrink=0.05, width=1.5, headwidth=6),
+                            ha='center', va=va_g, fontsize=9, fontweight='bold')
+                            
                 ax.set_title("Line-to-Output Transient Response")
                 ax.set_xlabel("Time (sec)")
                 ax.set_ylabel("Response (volts)")
@@ -277,7 +289,7 @@ def generate_history_pdf(specs_hist: list):
                 logger.error(f"Matplotlib image error: {e}")
                 pdf.set_font("Arial", "", 8)
                 pdf.multi_cell(0, 5, "[Plot image generation failed or not supported in this environment]")
-            pdf.ln(3)
+            pdf.ln(30)
             
             # Control-to-Output Response
             pdf.set_font("Arial", "B", 10)
@@ -288,7 +300,19 @@ def generate_history_pdf(specs_hist: list):
                 
                 fig, ax = plt.subplots(figsize=(8, 4))
                 ax.plot(row["td"], row["yd"], color='#2ca02c', label='Transient Response')
-                ax.axhline(y=row["yd"][-1], color='#d62728', linestyle='--', label='Steady State Value')
+                ss_yd = row["yd"][-1]
+                ax.axhline(y=ss_yd, color='#d62728', linestyle='--', label='Steady State Value')
+                
+                y_range_d = np.max(row["yd"]) - np.min(row["yd"]) if np.max(row["yd"]) != np.min(row["yd"]) else 1.0
+                y_offset_d = y_range_d * 0.15 if ss_yd < np.max(row["yd"]) - y_range_d * 0.2 else -y_range_d * 0.15
+                va_d = 'bottom' if y_offset_d > 0 else 'top'
+                
+                ax.annotate(f'Steady State: {ss_yd:.3f} V', 
+                            xy=(row["td"][-1] * 0.8, ss_yd), 
+                            xytext=(row["td"][-1] * 0.8, ss_yd + y_offset_d),
+                            arrowprops=dict(facecolor='black', shrink=0.05, width=1.5, headwidth=6),
+                            ha='center', va=va_d, fontsize=9, fontweight='bold')
+                            
                 ax.set_title("Control-to-Output Transient Response")
                 ax.set_xlabel("Time (sec)")
                 ax.set_ylabel("Response (volts)")
@@ -416,7 +440,7 @@ def _calculate_core_specs(converter_type: str, input_voltage: float, output_volt
 - Mode = {converter_type} Converter
 - Vin = {input_voltage}V
 - Vo = {output_voltage}V
-- R = {output_resistance}Ohm
+- R = {output_resistance}ohm
 - fsw = {frequency}Hz
 - Irp = {ripl_current}%
 - Vrp = {ripl_voltage}%
@@ -435,7 +459,7 @@ def _calculate_core_specs(converter_type: str, input_voltage: float, output_volt
 - Maximum inductor ripple current = {maxind_crnt}A
 - Minimum inductor ripple current = {minind_crnt}A
 - Output Capacitor = {cap}F
-- Capacitor ESR = {esr}Ohm
+- Capacitor ESR = {esr}ohm
 
 ### Transfer Functions
 $$ {gvg_latex} $$
@@ -554,18 +578,24 @@ with gr.Blocks(delete_cache=(86400, 86400)) as demo:
             for idx, row in enumerate(reversed(history_list)):
                 original_idx = len(history_list) - 1 - idx
                 with gr.Accordion(label=f"📊 Calculation #{original_idx + 1}", open=False):
-                    gr.Markdown("## Specifications")
-                    gr.Markdown(row['Specs'])
-                    
-                    # gr.Markdown("### Transfer Functions")
-                    # gr.Markdown(f"$$ {row['line_to_op_tf']} $$")
-                    # gr.Markdown(f"$$ {row['ctrl_to_op_tf']} $$")
-                    
-                    gr.Markdown("#### Response Plots")
                     with gr.Row():
-                        gr.Plot(value=row['dcm_opt_ind_fig'], label="DCM Inductor Value Optimization")
-                        gr.Plot(value=row['line_to_op_resp'], label="Line-to-Output Response")
-                        gr.Plot(value=row['ctrl_to_op_resp'], label="Control-to-Output Response")
+                        with gr.Column():
+                            gr.Markdown("## Specifications")
+                            gr.Markdown(row['Specs']) 
+                            gr.Plot(value=row['dcm_opt_ind_fig'], label="DCM Inductor Value Optimization", container=False)
+                            # gr.Markdown("### Transfer Functions")
+                            # gr.Markdown(f"$$ {row['line_to_op_tf']} $$")
+                            # gr.Markdown(f"$$ {row['ctrl_to_op_tf']} $$")
+                        with gr.Column():
+                            gr.Markdown("#### Response Plots")
+                            # with gr.Row():
+                                # gr.Column(scale=1)
+                                # with gr.Column(scale=4):
+                                     # gr.Plot(value=row['dcm_opt_ind_fig'], label="DCM Inductor Value Optimization", container=False)
+                                # gr.Column(scale=1)
+                            # with gr.Row():
+                            gr.Plot(value=row['line_to_op_resp'], label="Line-to-Output Response", container=False)
+                            gr.Plot(value=row['ctrl_to_op_resp'], label="Control-to-Output Response", container=False)
                         
     # PDF Download Section
     with gr.Column(visible=False, elem_id="pdf-col") as pdf_col:
