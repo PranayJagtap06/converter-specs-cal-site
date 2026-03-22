@@ -1,223 +1,242 @@
-import io
+"""
+Small-signal transfer functions for basic CCM DC-DC converters.
+
+Reference: Erickson & Maksimovic, Table 8.2 (Section 8.2.2)
+    Gvg(s) = Gg0 · 1 / (1 + s/(Q·ω₀) + (s/ω₀)²)           — Eq. 8.148
+    Gvd(s) = Gd0 · (1 − s/ωz) / (1 + s/(Q·ω₀) + (s/ω₀)²)  — Eq. 8.147
+
+Notation: D' = 1 − D, V = Vo (output voltage at operating point)
+"""
+
 import control as ct
 import numpy as np
 import plotly.graph_objects as go
 import plotly.io as pio
-from matplotlib import pyplot as plt
+
 pio.renderers.default = "browser"
 
-s = ct.TransferFunction.s
 
-def plot_response(d: float, vin: float, inductor: float, capacitor: float, resistor: float, mode: str) -> tuple:
-    global yg_ss, yd_ss, sys_g, sys_d, tg, td, yg, yd
-    
-    response_functions = {
-        'Buck': buck_response_vg,
-        'Boost': boost_response_vg,
-        'BuckBoost': buck_boost_response_vg
-    }
+# ---------------------------------------------------------------------------
+# Shared denominator builder
+# ---------------------------------------------------------------------------
+def _second_order_den(d_prime: float, inductor: float, capacitor: float,
+                      resistor: float) -> np.ndarray:
+    """
+    Build the standard 2nd-order denominator coefficients [1, a₁, a₀].
 
-    # if mode == 'Buck':
-    #     t, y, sys = buck_response(d, vin, inductor, capacitor, resistor)
-    #     y_ss = y[-1]
-    # elif mode == 'Boost':
-    #     t, y, sys = boost_response(d, vin, inductor, capacitor, resistor)
-    #     y_ss = y[-1]
-    # elif mode == 'BuckBoost':
-    #     t, y, sys = buck_boost_response(d, vin, inductor, capacitor, resistor)
-    #     y_ss = y[-1]
-    # else:
-    #     return tuple()
+    For buck:       ω₀ = 1/√(LC),   Q = R√(C/L)   → a₁ = 1/(RC),  a₀ = 1/(LC)
+    For boost/bb:   ω₀ = D'/√(LC),  Q = D'R√(C/L) → a₁ = 1/(RC),  a₀ = D'²/(LC)
 
-    if mode in response_functions:
-        tg, yg, sys_g, td, yd, sys_d = response_functions[mode](d, vin, inductor, capacitor, resistor)
-        yg_ss = yg[-1]
-        yd_ss = yd[-1]
+    Parameters
+    ----------
+    d_prime : float
+        Complement of duty cycle (1 − D).  Use 1.0 for buck.
+    inductor, capacitor, resistor : float
+        Component values.
+    """
+    a1 = 1.0 / (resistor * capacitor)
+    a0 = (d_prime ** 2) / (inductor * capacitor)
+    return np.array([1.0, a1, a0])
 
-    # fig, ax = plt.subplots(dpi=200)
-    # ax.plot(t, y, label='Transient Response')  # Plot steady-state response
-    # ax.plot(t, [y_ss] * len(t), label='Steady State Value')
-    # ax.set_xlabel('Time(sec)')
-    # ax.set_ylabel('Response')
-    # ax.set_title(f'Transient Response: Mode-{mode}, Vin-{vin}, D-{d}')
-    # ax.text(t[-1], y_ss, f'Steady State Value: {y_ss:.2f}', ha='right', va='bottom')
-    # ax.ticklabel_format(style='sci', axis='x', scilimits=(0, 0))
-    # ax.ticklabel_format(style='sci', axis='y', scilimits=(0, 0))
-    # ax.grid()
-    # ax.legend()
-    # buf = io.BytesIO()
-    # plt.savefig(buf, format='png', dpi=300)
-    # plt.close(fig)
-    # return buf.getvalue(), str(sys)
 
-    fig1 = go.Figure()
-    fig1.add_trace(go.Scatter(x=tg, y=yg, mode='lines', name='Transient Response Vg(s)'))
-    fig1.add_trace(go.Scatter(x=tg, y=[yg_ss] * len(tg), mode='lines', name='Steady State Value'))
-    fig1.update_layout(
+# ---------------------------------------------------------------------------
+# Buck converter transfer functions
+# ---------------------------------------------------------------------------
+def _buck_gvg(d: float, inductor: float, capacitor: float,
+              resistor: float) -> ct.TransferFunction:
+    """
+    Buck line-to-output TF  Gvg(s).
+
+    Gg0 = D,  ω₀ = 1/√(LC),  ωz = ∞  (no zero)
+    num = Gg0 · ω₀² = D / (LC)
+
+    Ref: Table 8.2, row 1.
+    """
+    lc = inductor * capacitor
+    num = np.array([d / lc])
+    den = _second_order_den(1.0, inductor, capacitor, resistor)
+    return ct.tf(num, den)
+
+
+def _buck_gvd(vin: float, inductor: float, capacitor: float,
+              resistor: float) -> ct.TransferFunction:
+    """
+    Buck control-to-output TF  Gvd(s).
+
+    Gd0 = V/D = Vin (since V = Vin·D),  ωz = ∞  (no zero)
+    num = Gd0 · ω₀² = Vin / (LC)
+
+    Ref: Table 8.2, row 1.
+    """
+    lc = inductor * capacitor
+    num = np.array([vin / lc])
+    den = _second_order_den(1.0, inductor, capacitor, resistor)
+    return ct.tf(num, den)
+
+
+# ---------------------------------------------------------------------------
+# Boost converter transfer functions
+# ---------------------------------------------------------------------------
+def _boost_gvg(d: float, inductor: float, capacitor: float,
+               resistor: float) -> ct.TransferFunction:
+    """
+    Boost line-to-output TF  Gvg(s).
+
+    Gg0 = 1/D',  ω₀ = D'/√(LC),  ωz = ∞  (no zero in Gvg)
+    Gg0 · ω₀² = (1/D') · D'²/(LC) = D' / (LC)
+
+    Ref: Table 8.2, row 2.
+    """
+    d_prime = 1.0 - d
+    lc = inductor * capacitor
+    num = np.array([d_prime / lc])
+    den = _second_order_den(d_prime, inductor, capacitor, resistor)
+    return ct.tf(num, den)
+
+
+def _boost_gvd(d: float, vin: float, inductor: float, capacitor: float,
+               resistor: float) -> ct.TransferFunction:
+    """
+    Boost control-to-output TF  Gvd(s).
+
+    Gd0 = V/D' = Vin/D'²   (since V = Vin/D')
+    ωz  = D'²R / L          (RHP zero)
+
+    Gvd(s) = Gd0·ω₀²·(1 − s/ωz) / (s² + s·ω₀/Q + ω₀²)
+    Gd0·ω₀² = Vin/(LC)
+    Numerator polynomial: [-Vin/(D'²·R·C),  Vin/(LC)]
+
+    Ref: Table 8.2, row 2.
+    """
+    d_prime = 1.0 - d
+    lc = inductor * capacitor
+    rc = resistor * capacitor
+    num = np.array([
+        -vin / (rc * d_prime ** 2),   # s¹ coefficient
+         vin / lc                      # s⁰ coefficient
+    ])
+    den = _second_order_den(d_prime, inductor, capacitor, resistor)
+    return ct.tf(num, den)
+
+
+# ---------------------------------------------------------------------------
+# Buck-Boost converter transfer functions
+# ---------------------------------------------------------------------------
+def _buckboost_gvg(d: float, inductor: float, capacitor: float,
+                   resistor: float) -> ct.TransferFunction:
+    """
+    Buck-Boost line-to-output TF  Gvg(s).
+
+    Gg0 = −D/D',  ω₀ = D'/√(LC),  ωz = ∞  (no zero in Gvg)
+    Gg0 · ω₀² = (−D/D') · D'²/(LC) = −D·D' / (LC)
+
+    Ref: Table 8.2, row 3.
+    """
+    d_prime = 1.0 - d
+    lc = inductor * capacitor
+    num = np.array([-(d * d_prime) / lc])
+    den = _second_order_den(d_prime, inductor, capacitor, resistor)
+    return ct.tf(num, den)
+
+
+def _buckboost_gvd(d: float, vin: float, inductor: float, capacitor: float,
+                   resistor: float) -> ct.TransferFunction:
+    """
+    Buck-Boost control-to-output TF  Gvd(s).
+
+    Gd0 = V/(D·D') = −Vin/D'²   (V = −Vin·D/D' for inverting topology)
+    ωz  = D'²R / (D·L)          (RHP zero)
+
+    Gvd(s) = Gd0·ω₀²·(1 − s/ωz) / (s² + s·ω₀/Q + ω₀²)
+    Gd0·ω₀² = −Vin/(LC)
+    Numerator polynomial: [Vin·D/(D'²·R·C),  −Vin/(LC)]
+
+    Ref: Table 8.2, row 3.
+    """
+    d_prime = 1.0 - d
+    lc = inductor * capacitor
+    rc = resistor * capacitor
+    num = np.array([
+        (vin * d) / (rc * d_prime ** 2),   # s¹ coefficient
+        -vin / lc                           # s⁰ coefficient
+    ])
+    den = _second_order_den(d_prime, inductor, capacitor, resistor)
+    return ct.tf(num, den)
+
+
+# ---------------------------------------------------------------------------
+# Dispatcher & plot builder
+# ---------------------------------------------------------------------------
+_GVG_FUNCS = {
+    'Buck':      lambda d, vin, L, C, R: _buck_gvg(d, L, C, R),
+    'Boost':     lambda d, vin, L, C, R: _boost_gvg(d, L, C, R),
+    'BuckBoost': lambda d, vin, L, C, R: _buckboost_gvg(d, L, C, R),
+}
+
+_GVD_FUNCS = {
+    'Buck':      lambda d, vin, L, C, R: _buck_gvd(vin, L, C, R),
+    'Boost':     lambda d, vin, L, C, R: _boost_gvd(d, vin, L, C, R),
+    'BuckBoost': lambda d, vin, L, C, R: _buckboost_gvd(d, vin, L, C, R),
+}
+
+
+def _build_figure(t: np.ndarray, y: np.ndarray, y_ss: float,
+                  title: str, trace_name: str) -> go.Figure:
+    """Create a Plotly figure for a transient response."""
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(x=t, y=y, mode='lines', name=trace_name))
+    fig.add_trace(go.Scatter(
+        x=t, y=np.full_like(t, y_ss),
+        mode='lines', name='Steady State Value'
+    ))
+    fig.update_layout(
+        title=title,
+        xaxis=dict(exponentformat='e', tickformat='.0e', showexponent='all'),
+        xaxis_title='Time (sec)',
+        yaxis_title='Response (volts)',
+        height=600,
+        width=720,
+    )
+    fig.add_annotation(
+        x=t[-1], y=y_ss,
+        text=f'Steady State Value: {y_ss:.4f}',
+        showarrow=True, arrowhead=1, ax=-40, ay=-40,
+    )
+    return fig
+
+
+def plot_response(d: float, vin: float, inductor: float,
+                  capacitor: float, resistor: float,
+                  mode: str) -> tuple:
+    """
+    Compute line-to-output & control-to-output step responses and return
+    Plotly figures along with the raw time/response arrays and TF objects.
+
+    Returns
+    -------
+    (fig_gvg, fig_gvd, sys_g, sys_d, tg, yg, td, yd)
+    """
+    if mode not in _GVG_FUNCS:
+        raise ValueError(f"Unknown converter mode: {mode!r}")
+
+    sys_g = _GVG_FUNCS[mode](d, vin, inductor, capacitor, resistor)
+    sys_d = _GVD_FUNCS[mode](d, vin, inductor, capacitor, resistor)
+
+    tg, yg = ct.step_response(sys_g)
+    td, yd = ct.step_response(sys_d)
+
+    yg_ss = float(yg[-1])
+    yd_ss = float(yd[-1])
+
+    fig_gvg = _build_figure(
+        tg, yg, yg_ss,
         title=f'Line-to-Output Transient Response: Mode-{mode}, Vin-{vin}, D-{d}',
-        xaxis=dict(
-            exponentformat='e',
-            tickformat='.0e',
-            showexponent='all',
-        ),
-        xaxis_title='Time (sec)',
-        yaxis_title='Response (volts)',
-        height=600,
-        width=720
+        trace_name='Transient Response Gvg(s)',
     )
-    fig1.add_annotation(
-        x=tg[-1],
-        y=yg_ss,
-        text=f'Steady State Value: {yg_ss:.2f}',
-        showarrow=True,
-        arrowhead=1,
-        ax=-40,
-        ay=-40
-    )
-
-    fig2 = go.Figure()
-    fig2.add_trace(go.Scatter(x=td, y=yd, mode='lines', name='Transient Response Vd(s)'))
-    fig2.add_trace(go.Scatter(x=td, y=[yd_ss] * len(td), mode='lines', name='Steady State Value'))
-    fig2.update_layout(
+    fig_gvd = _build_figure(
+        td, yd, yd_ss,
         title=f'Control-to-Output Transient Response: Mode-{mode}, Vin-{vin}, D-{d}',
-        xaxis=dict(
-            exponentformat='e',
-            tickformat='.0e',
-            showexponent='all'
-        ),
-        xaxis_title='Time (sec)',
-        yaxis_title='Response (volts)',
-        height=600,
-        width=720
-    )
-    fig2.add_annotation(
-        x=td[-1],
-        y=yd_ss,
-        text=f'Steady State Value: {yd_ss:.2f}',
-        showarrow=True,
-        arrowhead=1,
-        ax=-40,
-        ay=-40
+        trace_name='Transient Response Gvd(s)',
     )
 
-    return fig1, fig2, sys_g, sys_d, tg, yg, td, yd
-
-def buck_response_vg(d: float, vin: float, inductor: float, capacitor: float, resistor: float) -> tuple:
-    """
-    Buck Converter Line-to-Output transfer function response.
-    :param d: duty cycle.
-    :param vin: input voltage of converter
-    :param inductor: inductor value of converter
-    :param capacitor: capacitor value of converter
-    :param resistor: output resistor value
-    :return: list of time vector and response of the system
-    """
-
-    num_vg = np.array([(d*vin)/(inductor*capacitor)])
-    den_vg = np.array([1, 1/(resistor*capacitor), 1/(inductor*capacitor)])
-    sys_g = ct.tf(num_vg, den_vg)
-    # print('H(s) = ', sys)
-    t_g, y_g = ct.step_response(sys_g)
-    t_d, y_d, sys_d = buck_response_vd(d, vin, inductor, capacitor, resistor)
-    return t_g, y_g, sys_g, t_d, y_d, sys_d
-
-
-def boost_response_vg(d: float, vin: float, inductor: float, capacitor: float, resistor: float) -> tuple:
-    """
-    Boost Converter Line-to-Output transfer function response.
-    :param d: duty cycle.
-    :param vin: input voltage of converter
-    :param inductor: inductor value of converter
-    :param capacitor: capacitor value of converter
-    :param resistor: output resistor value
-    :return: list of time vector and response of the system
-    """
-
-    num_vg = np.array([((1-d)*vin)/(inductor*capacitor)])
-    den_vg = np.array([1, 1/(resistor*capacitor), ((1-d)**2)/(inductor*capacitor)])
-    sys_g = ct.tf(num_vg, den_vg)
-    # print('H(s) = ', sys)
-    t_g, y_g = ct.step_response(sys_g)
-    t_d, y_d, sys_d = boost_response_vd(d, vin, inductor, capacitor, resistor)
-    return t_g, y_g, sys_g, t_d, y_d, sys_d
-
-
-def buck_boost_response_vg(d: float, vin: float, inductor: float, capacitor: float, resistor: float) -> tuple:
-    """
-    Buck Boost Converter Line-to-Output transfer function response.
-    :param d: duty cycle.
-    :param vin: input voltage of converter
-    :param inductor: inductor value of converter
-    :param capacitor: capacitor value of converter
-    :param resistor: output resistor value
-    :return: list of time vector and response of the system
-    """
-
-    num_vg = np.array([-(((1-d)*d)*vin)/(inductor*capacitor)])
-    den_vg = np.array([1, 1/(resistor*capacitor), ((1-d)**2)/(inductor*capacitor)])
-    sys_g = ct.tf(num_vg, den_vg)
-    # print('H(s) = ', sys)
-    t_g, y_g = ct.step_response(sys_g)
-    t_d, y_d, sys_d = buck_boost_response_vd(d, vin, inductor, capacitor, resistor)
-    return t_g, y_g, sys_g, t_d, y_d, sys_d
-
-
-def buck_response_vd(d: float, vin: float, inductor: float, capacitor: float, resistor: float) -> tuple:
-    """
-    Buck Converter Control-to-Output transfer function response.
-    :param d: duty cycle.
-    :param vin: input voltage of converter
-    :param inductor: inductor value of converter
-    :param capacitor: capacitor value of converter
-    :param resistor: output resistor value
-    :return: list of time vector and response of the system
-    """
-
-    # num_vd = np.array([(vin)/(d*inductor*capacitor)])
-    num_vd = np.array([vin / (inductor * capacitor)])
-    den_vd = np.array([1, 1/(resistor*capacitor), 1/(inductor*capacitor)])
-    sys_d = ct.tf(num_vd, den_vd)
-    # print('H(s) = ', sys)
-    t_d, y_d = ct.step_response(sys_d)
-    return t_d, y_d, sys_d
-
-
-def boost_response_vd(d: float, vin: float, inductor: float, capacitor: float, resistor: float) -> tuple:
-    """
-    Boost Converter Control-to-Output transfer function response.
-    :param d: duty cycle.
-    :param vin: input voltage of converter
-    :param inductor: inductor value of converter
-    :param capacitor: capacitor value of converter
-    :param resistor: output resistor value
-    :return: list of time vector and response of the system
-    """
-
-    # num_vd = np.array([-vin/((1-d)*resistor*capacitor), vin/(inductor*capacitor)])
-    num_vd = np.array([-vin / (resistor * capacitor * (1 - d)**2), vin / (inductor * capacitor)])
-    den_vd = np.array([1, 1/(resistor*capacitor), ((1-d)**2)/(inductor*capacitor)])
-    sys_d = ct.tf(num_vd, den_vd)
-    # print('H(s) = ', sys)
-    t_d, y_d = ct.step_response(sys_d)
-    return t_d, y_d, sys_d
-
-
-def buck_boost_response_vd(d: float, vin: float, inductor: float, capacitor: float, resistor: float) -> tuple:
-    """
-    Buck Boost Converter Control-to-Output transfer function response.
-    :param d: duty cycle.
-    :param vin: input voltage of converter
-    :param inductor: inductor value of converter
-    :param capacitor: capacitor value of converter
-    :param resistor: output resistor value
-    :return: list of time vector and response of the system
-    """
-
-    # num_vd = np.array([vin/((1-d)*resistor*capacitor), -(vin*(1-d))/(d*inductor*capacitor)])
-    num_vd = np.array([(vin * d) / (resistor * capacitor * (1 - d)**2), -vin / (inductor * capacitor)])
-    den_vd = np.array([1, 1/(resistor*capacitor), ((1-d)**2)/(inductor*capacitor)])
-    sys_d = ct.tf(num_vd, den_vd)
-    # print('H(s) = ', sys)
-
-    t_d, y_d = ct.step_response(sys_d)
-    return t_d, y_d, sys_d
+    return fig_gvg, fig_gvd, sys_g, sys_d, tg, yg, td, yd

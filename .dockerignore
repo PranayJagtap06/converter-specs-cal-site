@@ -1,7 +1,11 @@
 .env
 *.env
 .env.*
-__pycache__
+__pycache__/
+.history/
+Streamlit_logs/
+gradio_logs/
+
 *.pyc
 *data/
 .vscode/

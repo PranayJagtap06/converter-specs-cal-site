@@ -1,4 +1,5 @@
 __pycache__/
+.history/
 *.pyc
 *.pyo
 *.pyd
@@ -9,6 +10,8 @@ __pycache__/
 *.venv
 venv/
 env/
+gradio_logs/
+Streamlit_logs/
 .idea/
 .vscode/
 .DS_Store
