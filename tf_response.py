@@ -193,7 +193,7 @@ def _build_figure(t: np.ndarray, y: np.ndarray, y_ss: float,
         title=title,
         xaxis=dict(exponentformat='e', tickformat='.0e', showexponent='all'),
         xaxis_title='Time (sec)',
-        yaxis_title='Response (volts)',
+        yaxis_title='Gain Response',
         height=600,
         width=720,
     )
